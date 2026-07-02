@@ -60,7 +60,7 @@ export default function Contact() {
             <div className="pt-4">
               <p className="font-semibold mb-2">WhatsApp Direct:</p >
               <a
-                href=" "
+                href="https://wa.me/971502845790"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-green-500 text-white px-5 py-3 rounded-lg hover:bg-green-600 transition"
