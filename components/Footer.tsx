@@ -41,15 +41,14 @@ export default function Footer() {
 
           <p className="mt-2 text-sm text-gray-300">
   WhatsApp:{" "}
-  <a 
-    href="https://wa.me/971502845790" 
-    target="_blank" 
-    rel="noopener noreferrer" 
-    className="text-[#D4AF37] hover:underline"
+  <span 
+    onClick={() => window.open("https://wa.me/971502845790", "_blank")}
+    className="text-[#D4AF37] hover:underline cursor-pointer"
   >
     +971 50 284 5790
-  </a >
+  </span>
 </p >
+
 
 
           <p className="mt-2 text-sm text-gray-300">
