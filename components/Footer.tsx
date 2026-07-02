@@ -40,8 +40,17 @@ export default function Footer() {
           </p >
 
           <p className="mt-2 text-sm text-gray-300">
-            WhatsApp: +971 50 284 5790
-          </p >
+  WhatsApp:{" "}
+  <a 
+    href="https://wa.me/071502845790" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="text-[#D4AF37] hover:underline"
+  >
+    +971 50 284 5790
+  </a >
+</p >
+
 
           <p className="mt-2 text-sm text-gray-300">
             Office Entrance, Voco Hotel, Sheikh Zayed, Dubai, UAE
