@@ -25,9 +25,7 @@ export const metadata: Metadata = {
     "International commodity trading and service provider specializing in energy, mining and petrochemical markets.",
 
   icons: {
-    icon: "/LOGO.png",
-    shortcut: "/LOGO.png",
-    apple: "/LOGO.png",
+    icon: "/icon.png",
   },
 
 
@@ -40,7 +38,7 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: "/LOGO.png",
+        url: "/icon.png",
         width: 512,
         height: 512,
         alt: "Golden Falcon Energy Logo",
