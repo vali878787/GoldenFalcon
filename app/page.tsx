@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Products from "@/components/Products";
 import WorkFlow from "@/components/WorkFlow";
+import HomeInsights from "@/components/HomeInsights";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <WhyChooseUs />
       <Products />
       <WorkFlow />
+      <HomeInsights />
       <Contact />
       <Footer />
 
