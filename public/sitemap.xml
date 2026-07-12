@@ -1,47 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/download/7425982a5-5e95edb89/sitemap.xsl"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <url>
-       <loc>https://www.goldenfalconenergy.com/</loc>
-       <lastmod>2026-07-12T09:27:41+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>1.0000</priority>
-  </url>
-  <url>
-       <loc>https://www.goldenfalconenergy.com/mining</loc>
-       <lastmod>2026-07-12T09:27:41+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://www.goldenfalconenergy.com/energy</loc>
-       <lastmod>2026-07-12T09:27:41+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://www.goldenfalconenergy.com/petrochemical</loc>
-       <lastmod>2026-07-12T09:27:41+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://www.goldenfalconenergy.com/insights/en590-10ppm-diesel</loc>
-       <lastmod>2026-07-12T09:27:41+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://www.goldenfalconenergy.com/insights/how-to-import-granular-sulphur</loc>
-       <lastmod>2026-07-12T09:27:41+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://www.goldenfalconenergy.com/insights</loc>
-       <lastmod>2026-07-12T09:27:41+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+<!-- HOME -->
+
+<url>
+    <loc>https://www.goldenfalconenergy.com/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+</url>
+
+
+<!-- MAIN SERVICES -->
+
+<url>
+    <loc>https://www.goldenfalconenergy.com/energy</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+
+<url>
+    <loc>https://www.goldenfalconenergy.com/mining</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+
+<url>
+    <loc>https://www.goldenfalconenergy.com/petrochemical</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+
+
+<!-- INSIGHTS HUB -->
+
+<url>
+    <loc>https://www.goldenfalconenergy.com/insights</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+
+
+<!-- ARTICLES -->
+
+
+<url>
+    <loc>https://www.goldenfalconenergy.com/insights/how-to-import-granular-sulphur</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
+<url>
+    <loc>https://www.goldenfalconenergy.com/insights/en590-10ppm-diesel</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
 </urlset>
