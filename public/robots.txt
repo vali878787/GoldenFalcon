@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://goldenfalconenergy.com/sitemap.xml
+Sitemap: https://www.goldenfalconenergy.com/sitemap.xml

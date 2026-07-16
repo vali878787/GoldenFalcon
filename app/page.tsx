@@ -6,6 +6,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import Products from "@/components/Products";
 import WorkFlow from "@/components/WorkFlow";
 import HomeInsights from "@/components/HomeInsights";
+import HomeMarketPrices from "@/components/HomeMarketPrices";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -20,6 +21,7 @@ export default function Home() {
       <Products />
       <WorkFlow />
       <HomeInsights />
+      <HomeMarketPrices />
       <Contact />
       <Footer />
 

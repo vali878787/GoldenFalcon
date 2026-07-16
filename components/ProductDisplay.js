@@ -10,7 +10,7 @@ export default function ProductDisplay({ priceData, specs }) {
       {/* نمودار قیمت */}
       <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} className="bg-gray-50 p-8 rounded-3xl shadow-sm border border-gray-100">
         <h3 className="text-2xl font-bold text-[#0F2E4D] mb-6">Market Price Trend (USD/MT)</h3>
-        <div className="h-[300px]">
+        <div className="h-75">
           <ResponsiveContainer width="100%" height="100%">
             <LineChart data={priceData}>
               <CartesianGrid strokeDasharray="3 3" vertical={false} />

@@ -9,7 +9,7 @@ export default function Header() {
 
   // Scroll tracker
   useEffect(() => {
-    const sections = ["home", "about", "products", "workflow", "insights", "contact"];
+    const sections = ["home", "about", "products", "workflow", "insights", "market-prices","contact"];
     const handleScroll = () => {
       let current = "home";
       sections.forEach((section) => {
@@ -47,6 +47,12 @@ export default function Header() {
         <a href="/#products" className={linkClass("products")}>Products</a >
         <a href="/#workflow" className={linkClass("workflow")}>Workflow</a >
         <a href="/#insights" className={linkClass("insights")}>Industry Insights</a >
+        <a
+  href="/#market-prices"
+  className={linkClass("market-prices")}
+>
+  Market Prices
+</a>
         <a href="/#contact" className={linkClass("contact")}>Contact</a >
       </nav>
 
@@ -97,6 +103,12 @@ export default function Header() {
 
           <a href="/#workflow" onClick={closeMenu}>Workflow</a >
           <a href="/#insights" onClick={closeMenu}>Industry Insights</a >
+          <a
+  href="/#market-prices"
+  onClick={closeMenu}
+>
+  Market Prices
+</a>
           <a href="/#contact" onClick={closeMenu}>Contact</a >
         </div>
       </div>

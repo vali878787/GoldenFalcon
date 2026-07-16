@@ -14,20 +14,19 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
 export const metadata: Metadata = {
   metadataBase: new URL(
     "https://www.goldenfalconenergy.com"
   ),
+
   title: "Golden Falcon Energy",
-  
+
   description:
     "International commodity trading and service provider specializing in energy, mining and petrochemical markets.",
 
   icons: {
     icon: "/icon.png",
   },
-
 
   openGraph: {
     title: "Golden Falcon Energy",
@@ -48,7 +47,6 @@ export const metadata: Metadata = {
     type: "website",
   },
 
-
   twitter: {
     card: "summary_large_image",
     title: "Golden Falcon Energy",
@@ -58,59 +56,44 @@ export const metadata: Metadata = {
   },
 };
 
-
-
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-
   return (
     <html
       lang="en"
+      data-scroll-behavior="smooth"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-
       <body className="min-h-full flex flex-col bg-white text-black">
 
-
         {/* ORGANIZATION SCHEMA */}
-
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-
-              "name": "Golden Falcon Energy",
-
-              "url":
-                "https://www.goldenfalconenergy.com",
-
-              "logo":
-                "https://www.goldenfalconenergy.com/LOGO.png",
-
-              "description":
-                "International commodity trading and service provider specializing in energy, mining and petrochemical markets."
+              name: "Golden Falcon Energy",
+              url: "https://www.goldenfalconenergy.com",
+              logo: "https://www.goldenfalconenergy.com/LOGO.png",
+              description:
+                "International commodity trading and service provider specializing in energy, mining and petrochemical markets.",
             }),
           }}
         />
 
-
         {/* GLOBAL HEADER */}
         <Header />
-
 
         {/* PAGE CONTENT */}
         <main className="flex-1">
           {children}
         </main>
 
-
       </body>
-
     </html>
   );
 }

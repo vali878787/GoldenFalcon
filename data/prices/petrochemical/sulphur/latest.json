@@ -1,0 +1,199 @@
+{
+  "category": "petrochemical",
+  "product": "sulphur",
+  "date": "09 Jul 2026",
+  "previousDate": "02 Jul 2026",
+  "updatedAt": "2026-07-16T09:04:50.674Z",
+  "sections": [
+    {
+      "title": "Spot",
+      "items": [
+        {
+          "market": "fob Vancouver",
+          "currentPrice": "1100-1150",
+          "previousPrice": "1100-1150"
+        },
+        {
+          "market": "fob US West coast",
+          "currentPrice": "1100-1145",
+          "previousPrice": "1100-1145"
+        },
+        {
+          "market": "fob Middle East (excluding Iran)",
+          "currentPrice": "890-1000",
+          "previousPrice": "890-1000"
+        },
+        {
+          "market": "fob Middle East netback 30-35kt",
+          "currentPrice": "980-990",
+          "previousPrice": "988-995"
+        },
+        {
+          "market": "fob Middle East netback 50-55kt",
+          "currentPrice": "939-989",
+          "previousPrice": "945-994"
+        },
+        {
+          "market": "fob Iran (lump-granular)",
+          "currentPrice": "750-850",
+          "previousPrice": "750-850"
+        },
+        {
+          "market": "fob Black Sea (lump-granular)",
+          "currentPrice": "800-850",
+          "previousPrice": "800-850"
+        },
+        {
+          "market": "fob Baltic Sea",
+          "currentPrice": "800-850",
+          "previousPrice": "800-850"
+        },
+        {
+          "market": "fob US Gulf",
+          "currentPrice": "1100-1150",
+          "previousPrice": "1100-1150"
+        },
+        {
+          "market": "delivered Benelux (molten)",
+          "currentPrice": "850-1400",
+          "previousPrice": "850-1400"
+        },
+        {
+          "market": "fob Med (under 10,000t)",
+          "currentPrice": "1050-1100",
+          "previousPrice": "1050-1100"
+        },
+        {
+          "market": "cfr Med (under 10,000t)",
+          "currentPrice": "1150-1200",
+          "previousPrice": "1150-1200"
+        },
+        {
+          "market": "cfr north Africa (lump-granular)",
+          "currentPrice": "1000-1200",
+          "previousPrice": "1000-1200"
+        },
+        {
+          "market": "cfr north Africa (granular)",
+          "currentPrice": "1100-1200",
+          "previousPrice": "1100-1200"
+        },
+        {
+          "market": "cfr southern Africa",
+          "currentPrice": "1100-1200",
+          "previousPrice": "1100-1200"
+        },
+        {
+          "market": "cfr Brazil",
+          "currentPrice": "1090-1200",
+          "previousPrice": "1000-1200"
+        },
+        {
+          "market": "cfr India",
+          "currentPrice": "1090-1200",
+          "previousPrice": "1000-1100"
+        },
+        {
+          "market": "cfr India (lump-crushed)",
+          "currentPrice": "900-950",
+          "previousPrice": "900-950"
+        },
+        {
+          "market": "cfr China (molten-lump-granular)",
+          "currentPrice": "525-1100",
+          "previousPrice": "525-1100"
+        },
+        {
+          "market": "ex-works China Yn/t",
+          "currentPrice": "8890-8910",
+          "previousPrice": "8600-8700"
+        },
+        {
+          "market": "cfr China (granular)",
+          "currentPrice": "1000-1100",
+          "previousPrice": "1000-1100"
+        },
+        {
+          "market": "cfr Indonesia",
+          "currentPrice": "1050-1150",
+          "previousPrice": "1050-1150"
+        }
+      ]
+    },
+    {
+      "title": "Contract- monthly/ quarterly",
+      "items": [
+        {
+          "market": "fob Vancouver",
+          "currentPrice": "2Q26",
+          "previousPrice": "1100-1150"
+        },
+        {
+          "market": "fob Middle East (excluding Iran)",
+          "currentPrice": "2Q26",
+          "previousPrice": "540-600"
+        },
+        {
+          "market": "fob Qatar QSP",
+          "currentPrice": "Jul 26",
+          "previousPrice": "890"
+        },
+        {
+          "market": "fob UAE QSP",
+          "currentPrice": "Jul 26",
+          "previousPrice": "1000"
+        },
+        {
+          "market": "fob Kuwait KSP",
+          "currentPrice": "Jul 26",
+          "previousPrice": "950"
+        },
+        {
+          "market": "fob Black and Baltic Sea (lump-granular)",
+          "currentPrice": "2Q26",
+          "previousPrice": "570-580"
+        },
+        {
+          "market": "cfr north Africa (lump-granular)",
+          "currentPrice": "2Q26",
+          "previousPrice": "650-700"
+        },
+        {
+          "market": "cfr Brazil",
+          "currentPrice": "2Q26",
+          "previousPrice": "735-738"
+        },
+        {
+          "market": "cfr China (molten-lump-granular)",
+          "currentPrice": "2Q26",
+          "previousPrice": "525-1100"
+        },
+        {
+          "market": "cfr Tampa $/t",
+          "currentPrice": "2Q26",
+          "previousPrice": "655"
+        },
+        {
+          "market": "ex-works Benelux (loc refs) (molten)",
+          "currentPrice": "Jul 26",
+          "previousPrice": "840"
+        },
+        {
+          "market": "European Sourcing Average",
+          "currentPrice": "spot",
+          "previousPrice": "1065"
+        },
+        {
+          "market": "cfr Benelux (loc refs) (molten)",
+          "currentPrice": "3Q26",
+          "previousPrice": "840-856"
+        },
+        {
+          "market": "cpt northwest Europe",
+          "currentPrice": "3Q26",
+          "previousPrice": "862-899"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "category": "petrochemical",
+  "product": "other",
+  "date": "16/10/2026",
+  "previousDate": "10 Sept 2026",
+  "updatedAt": "2026-07-16T08:01:39.865Z",
+  "sections": [
+    {
+      "title": "Iron Ore FOB ($/mt)",
+      "items": [
+        {
+          "market": "Iron Ore Pellets fe 64.5",
+          "currentPrice": "106",
+          "previousPrice": "105"
+        },
+        {
+          "market": "Iron Ore Pellets fe 63",
+          "currentPrice": "95",
+          "previousPrice": "94"
+        },
+        {
+          "market": "Iron Ore Concentrate fe 70",
+          "currentPrice": "97",
+          "previousPrice": "95"
+        },
+        {
+          "market": "Iron Ore Concentrate fe 68",
+          "currentPrice": "95",
+          "previousPrice": "94"
+        }
+      ]
+    },
+    {
+      "title": "Bitumen ($/mt)",
+      "items": [
+        {
+          "market": "Bitumen 60/70 - FOB",
+          "currentPrice": "395- 405",
+          "previousPrice": "393- 403"
+        },
+        {
+          "market": "Bitumen 60/70 - FCA",
+          "currentPrice": "385- 395",
+          "previousPrice": "380- 390"
+        },
+        {
+          "market": "Bitumen 80/100 - FOB",
+          "currentPrice": "390- 400",
+          "previousPrice": "386- 396"
+        },
+        {
+          "market": "Bitumen 80/100 - FCA",
+          "currentPrice": "380- 390",
+          "previousPrice": "377- 385"
+        }
+      ]
+    },
+    {
+      "title": "LPG ($/mt)",
+      "items": [
+        {
+          "market": "Propane",
+          "currentPrice": "580",
+          "previousPrice": "760"
+        },
+        {
+          "market": "Butane",
+          "currentPrice": "600",
+          "previousPrice": "820"
+        },
+        {
+          "market": "LPG (50% P- 50% B)",
+          "currentPrice": "590",
+          "previousPrice": "790"
+        },
+        {
+          "market": "LPG (70% P- 30% B)",
+          "currentPrice": "586",
+          "previousPrice": "778"
+        },
+        {
+          "market": "LPG (30% P- 70% B)",
+          "currentPrice": "594",
+          "previousPrice": "892"
+        }
+      ]
+    },
+    {
+      "title": "Base Metals ($/mt)",
+      "items": [
+        {
+          "market": "Copper",
+          "currentPrice": "13536",
+          "previousPrice": "13534"
+        },
+        {
+          "market": "Aluminium",
+          "currentPrice": "3153",
+          "previousPrice": "3150"
+        },
+        {
+          "market": "Zinc",
+          "currentPrice": "3553",
+          "previousPrice": "3549"
+        },
+        {
+          "market": "Lead",
+          "currentPrice": "1795",
+          "previousPrice": "1791"
+        },
+        {
+          "market": "Nickel",
+          "currentPrice": "16500",
+          "previousPrice": "16500"
+        },
+        {
+          "market": "Tin",
+          "currentPrice": "52700",
+          "previousPrice": "52695"
+        }
+      ]
+    }
+  ]
+}
