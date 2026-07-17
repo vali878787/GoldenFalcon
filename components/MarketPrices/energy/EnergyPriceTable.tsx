@@ -31,7 +31,7 @@ export default function PriceTable({
       
     >
       <Watermark />
-      <table className="min-w-175 border-collapse">
+      <table className="w-full border-collapse">
 
         {/* Table Header */}
 
