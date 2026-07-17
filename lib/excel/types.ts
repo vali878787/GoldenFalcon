@@ -19,6 +19,9 @@ export interface PriceItem {
   product: string;
   code: string;
   price: string;
+  previousPrice?: string;
+  average?: number;
+  change?: number;
 }
 
 /**
@@ -52,6 +55,7 @@ export interface RawExcelRow {
   product: string;
   code: string;
   price: string;
+  previousPrice?: string;
 }
 
 /**

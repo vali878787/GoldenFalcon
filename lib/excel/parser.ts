@@ -93,18 +93,19 @@ export async function parseExcel(
 
       parsedRows.push({
 
-        product:
-          values[0] ?? "",
+  product:
+    values[0] ?? "",
 
+  code:
+    values[1] ?? "",
 
-        code:
-          values[1] ?? "",
+  price:
+    values[2] ?? "",
 
+  previousPrice:
+    values[3] ?? "",
 
-        price:
-          values[2] ?? "",
-
-      });
+});
 
 
     });

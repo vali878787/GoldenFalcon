@@ -4,6 +4,8 @@ interface PriceItem {
   product: string;
   code: string;
   price: string;
+  average?: number;
+  change?: number;
 }
 
 interface PriceTableProps {
@@ -79,6 +81,35 @@ export default function PriceTable({
               {priceTitle}
             </th>
 
+            <th
+  className="
+    px-5
+    py-3
+    text-right
+    text-xs
+    font-semibold
+    uppercase
+    tracking-wider
+  "
+>
+  Average
+</th>
+
+
+<th
+  className="
+    px-5
+    py-3
+    text-right
+    text-xs
+    font-semibold
+    uppercase
+    tracking-wider
+  "
+>
+  Change
+</th>
+
           </tr>
 
         </thead>
@@ -133,6 +164,89 @@ export default function PriceTable({
               >
                 {item.price}
               </td>
+
+              <td
+  className="
+    px-5
+    py-3
+    text-right
+    text-sm
+    font-semibold
+    text-[#0F2E4D]
+  "
+>
+  {item.average ?? "-"}
+</td>
+
+<td
+  className="
+    px-5
+    py-3
+    text-right
+    text-sm
+    font-semibold
+  "
+>
+
+  {item.change !== undefined ? (
+
+    item.change > 0 ? (
+
+      <span className="flex items-center justify-end gap-1 text-green-600">
+
+  <span
+    className="
+      w-0
+      h-0
+      border-l-[5px]
+      border-r-[5px]
+      border-b-8
+      border-l-transparent
+      border-r-transparent
+    "
+  />
+
+  +{item.change.toFixed(2)}
+
+</span>
+
+    ) : item.change < 0 ? (
+
+      <span className="flex items-center justify-end gap-1 text-red-600">
+
+  <span
+    className="
+      w-0
+      h-0
+      border-l-[5px]
+      border-r-[5px]
+      border-t-8
+      border-l-transparent
+      border-r-transparent
+    "
+  />
+
+  {item.change.toFixed(2)}
+
+</span>
+
+    ) : (
+
+      <span className="text-gray-500">
+        — 0.00
+      </span>
+
+    )
+
+  ) : (
+
+    <span className="text-gray-400">
+      -
+    </span>
+
+  )}
+
+</td>
 
             </tr>
 

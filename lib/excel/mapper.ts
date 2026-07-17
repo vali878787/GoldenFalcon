@@ -1,9 +1,16 @@
+
+
 import {
   ParsedWorkbook,
   WeeklyPriceData,
   PriceSection,
   RawExcelRow,
 } from "./types";
+
+import {
+  calculateAveragePrice,
+  calculatePriceChange,
+} from "@/lib/prices/price-utils";
 
 
 function detectUnit(
@@ -68,22 +75,37 @@ function createSection(
 
     priceTitle: unit,
 
-    items:
 
-      rows.map(
-        (row) => ({
+items:
 
-          product:
-            row.product,
+  rows.map(
+    (row) => ({
 
-          code:
-            row.code,
+      product:
+        row.product,
 
-          price:
-            row.price,
+      code:
+        row.code,
 
-        })
-      ),
+      price:
+        row.price,
+
+      previousPrice:
+        row.previousPrice,
+
+      average:
+        calculateAveragePrice(
+          row.price
+        ),
+
+      change:
+        calculatePriceChange(
+          row.price,
+          row.previousPrice
+        ),
+
+    })
+  ),
 
   };
 
