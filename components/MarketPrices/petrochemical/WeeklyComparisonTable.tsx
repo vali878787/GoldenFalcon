@@ -64,8 +64,9 @@ export default function WeeklyComparisonTable({
 
       <Watermark />
 
+<div className="overflow-x-auto">
 
-      <table className="w-full border-collapse">
+  <table className="min-w-175 border-collapse">
 
 
         {/* Header */}
@@ -311,10 +312,11 @@ const change =
         </tbody>
 
 
-      </table>
-
+            </table>
 
     </div>
+
+  </div>
 
   );
 

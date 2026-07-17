@@ -164,7 +164,7 @@ object-cover
 className="
 absolute
 inset-0
-bg-gradient-to-r
+bg-linear-to-r
 from-white
 via-white/40
 to-transparent
@@ -252,7 +252,7 @@ alt=""
 
 className="
 w-[320px]
-md:w-[620px]
+md:w-155
 opacity-[0.5]
 select-none
 "
