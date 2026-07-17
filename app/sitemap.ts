@@ -93,10 +93,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
 
     {
-  url: "https://www.goldenfalconenergy.com/insights/global-urea-market-guid",
-  lastModified,
-  changeFrequency: "monthly",
-  priority: 0.8,
-},
+      url: "https://www.goldenfalconenergy.com/insights/global-urea-market-guide",
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
   ];
 }
