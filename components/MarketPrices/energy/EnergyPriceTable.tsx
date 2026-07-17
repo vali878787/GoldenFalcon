@@ -21,7 +21,7 @@ export default function PriceTable({
     <div
       className="
       relative
-        overflow-hidden
+        overflow-x-auto
         rounded-2xl
         border
         border-[#0F2E4D]/10
@@ -31,7 +31,7 @@ export default function PriceTable({
       
     >
       <Watermark />
-      <table className="w-full border-collapse">
+      <table className="min-w-175 border-collapse">
 
         {/* Table Header */}
 
