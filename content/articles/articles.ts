@@ -39,4 +39,16 @@ This article explains the key factors that buyers should consider before purchas
 Choosing the correct supplier can significantly reduce commercial risks and ensure long-term supply stability.
 `,
   },
+
+
+  {
+    slug: "global-urea-market-guide",
+    title: "Global Urea Market Outlook 2026",
+    description:
+      "Price Trends, Supply Dynamics, Trade Flows and Future Market Forecast.",
+    image: "/C1.png",
+    date: "July 17, 2026",
+    readTime: "12 min read",
+    content: "",
+  },
 ];
