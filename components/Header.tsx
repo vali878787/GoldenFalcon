@@ -108,7 +108,7 @@ export default function Header() {
       >
         <div className="flex flex-col space-y-4 px-6 text-white">
           <a 
-href="/#about" 
+href="/"
 onClick={closeMenu}
 className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition"
 >
@@ -136,28 +136,31 @@ About
             }`}
           >
             <a 
-href="/#about" 
+href="/#products" 
 onClick={closeMenu}
 className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition"
 >
 All products
 </a>
-            <a 
-href="/#about" 
+
+<a 
+href="/mining" 
 onClick={closeMenu}
 className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition"
 >
 Mining
 </a>
-            <a 
-href="/#about" 
+
+<a 
+href="/energy" 
 onClick={closeMenu}
 className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition"
 >
 Energy
 </a>
-            <a 
-href="/#about" 
+
+<a 
+href="/petrochemical" 
 onClick={closeMenu}
 className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition"
 >
@@ -166,14 +169,14 @@ Petrochemical
           </div>
 
           <a 
-href="/#about" 
+href="/#workflow" 
 onClick={closeMenu}
 className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition"
 >
 Workflow
 </a>
           <a 
-href="/#about" 
+href="/#insights" 
 onClick={closeMenu}
 className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition"
 >
@@ -214,7 +217,7 @@ Other
 
 </div>
           <a 
-href="/#about" 
+href="/#contact"
 onClick={closeMenu}
 className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition"
 >
