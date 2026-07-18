@@ -1,9 +1,9 @@
 {
   "category": "petrochemical",
   "product": "urea",
-  "date": "16 Jul 2026",
-  "previousDate": "09 Jul 2026",
-  "updatedAt": "2026-07-18T07:56:35.012Z",
+  "date": "09 Jul 2026",
+  "previousDate": "02 Jul 2026",
+  "updatedAt": "2026-07-16T09:00:49.658Z",
   "sections": [
     {
       "title": "Prilled urea - fob bulk",
@@ -11,37 +11,37 @@
         {
           "market": "Black Sea",
           "currentPrice": "365-375",
-          "previousPrice": "365-375"
+          "previousPrice": "360-380"
         },
         {
           "market": "Baltic",
-          "currentPrice": "360-385",
-          "previousPrice": "360-370"
+          "currentPrice": "360-370",
+          "previousPrice": "355-375"
         },
         {
           "market": "Middle East",
-          "currentPrice": "385-425",
-          "previousPrice": "365-385"
+          "currentPrice": "365-385",
+          "previousPrice": "350-390"
         },
         {
           "market": "China",
-          "currentPrice": "380-392",
-          "previousPrice": "380-390"
+          "currentPrice": "380-390",
+          "previousPrice": "380-400"
         },
         {
           "market": "Brazil (cfr)",
-          "currentPrice": "410-420",
-          "previousPrice": "395-415"
+          "currentPrice": "395-415",
+          "previousPrice": "390-415"
         },
         {
           "market": "Mexico (cfr) east coast",
-          "currentPrice": "406-437",
-          "previousPrice": "406-422"
+          "currentPrice": "406-422",
+          "previousPrice": "401-427"
         },
         {
           "market": "Southeast Asia (cfr)",
           "currentPrice": "420-430",
-          "previousPrice": "420-430"
+          "previousPrice": "410-430"
         },
         {
           "market": "India (cfr)",
@@ -55,138 +55,138 @@
       "items": [
         {
           "market": "Middle East all netbacks",
-          "currentPrice": "297-435",
-          "previousPrice": "273-395"
+          "currentPrice": "273-395",
+          "previousPrice": "265-400"
         },
         {
           "market": "Middle East US netback",
-          "currentPrice": "297-402",
-          "previousPrice": "273-391"
+          "currentPrice": "273-391",
+          "previousPrice": "265-351"
         },
         {
           "market": "Middle East Brazil netback",
-          "currentPrice": "309-405",
-          "previousPrice": "298-380"
+          "currentPrice": "298-380",
+          "previousPrice": "300-380"
         },
         {
           "market": "Middle East non-US netbacks",
-          "currentPrice": "395-435",
-          "previousPrice": "375-395"
+          "currentPrice": "375-395",
+          "previousPrice": "360-400"
         },
         {
           "market": "Iran",
-          "currentPrice": "346-350",
-          "previousPrice": "340-346"
+          "currentPrice": "340-346",
+          "previousPrice": "340-340"
         },
         {
           "market": "Egypt (Europe)",
-          "currentPrice": "490-527",
-          "previousPrice": "415-448"
+          "currentPrice": "415-448",
+          "previousPrice": "405-420"
         },
         {
           "market": "Egypt (non-Europe)",
-          "currentPrice": "478-527",
-          "previousPrice": "420-448"
+          "currentPrice": "420-448",
+          "previousPrice": "370-420"
         },
         {
           "market": "Algeria",
-          "currentPrice": "483-535",
-          "previousPrice": "425-471"
+          "currentPrice": "425-471",
+          "previousPrice": "375-425"
         },
         {
           "market": "North Africa full range",
-          "currentPrice": "478-535",
-          "previousPrice": "415-471"
+          "currentPrice": "415-471",
+          "previousPrice": "370-425"
         },
         {
           "market": "Nigeria",
-          "currentPrice": "395-460",
-          "previousPrice": "380-410"
+          "currentPrice": "380-410",
+          "previousPrice": "370-400"
         },
         {
           "market": "China",
-          "currentPrice": "400-415",
-          "previousPrice": "390-410"
+          "currentPrice": "390-410",
+          "previousPrice": "395-410"
         },
         {
           "market": "Southeast Asia",
-          "currentPrice": "395-420",
-          "previousPrice": "400-420"
+          "currentPrice": "400-420",
+          "previousPrice": "410-425"
         },
         {
           "market": "Southeast Asia (cfr)",
-          "currentPrice": "420-435",
-          "previousPrice": "420-440"
+          "currentPrice": "420-440",
+          "previousPrice": "440-450"
         },
         {
           "market": "Geelong, Australia (A$/t fca)",
-          "currentPrice": "780-800",
-          "previousPrice": "830-860"
+          "currentPrice": "830-860",
+          "previousPrice": "850-900"
         },
         {
           "market": "Australia (cfr)",
           "currentPrice": "460-480",
-          "previousPrice": "460-480"
+          "previousPrice": "450-460"
         },
         {
           "market": "Venezuela/Trinidad",
-          "currentPrice": "240-368",
-          "previousPrice": "250-352"
+          "currentPrice": "250-352",
+          "previousPrice": "250-329"
         },
         {
           "market": "Brazil (cfr)",
-          "currentPrice": "420-450",
-          "previousPrice": "405-425"
+          "currentPrice": "405-425",
+          "previousPrice": "400-425"
         },
         {
           "market": "Argentina (cfr)",
-          "currentPrice": "455-465",
-          "previousPrice": "425-440"
+          "currentPrice": "425-440",
+          "previousPrice": "435-440"
         },
         {
           "market": "Mexico (cfr) west coast",
-          "currentPrice": "440-465",
-          "previousPrice": "452-477"
+          "currentPrice": "452-477",
+          "previousPrice": "447-477"
         },
         {
           "market": "US Gulf (barge), $/st",
-          "currentPrice": "385.0-420.0",
-          "previousPrice": "363.0-410.0"
+          "currentPrice": "363.0-410.0",
+          "previousPrice": "355.0-373.0"
         },
         {
           "market": "US Gulf (cfr)",
-          "currentPrice": "419-457",
-          "previousPrice": "395-446"
+          "currentPrice": "395-446",
+          "previousPrice": "386-406"
         },
         {
           "market": "Nola barge weighted average Jul 26",
-          "currentPrice": "402.63",
-          "previousPrice": "375.63"
+          "currentPrice": "375.63",
+          "previousPrice": "370.50"
         },
         {
           "market": "Nola barge weighted average Aug 26",
-          "currentPrice": "405.25",
-          "previousPrice": "383.29"
+          "currentPrice": "383.29",
+          "previousPrice": "363.33"
         },
         {
           "market": "French Atlantic (fca), €/t",
-          "currentPrice": "485-520",
+          "currentPrice": "460-480",
           "previousPrice": "460-480"
         },
         {
           "market": "Baltic",
-          "currentPrice": "375-395",
-          "previousPrice": "370-385"
+          "currentPrice": "370-385",
+          "previousPrice": "365-385"
         },
         {
           "market": "Romania (cfr)",
-          "currentPrice": "465-450",
-          "previousPrice": "425-465"
+          "currentPrice": "425-465",
+          "previousPrice": "420-430"
         },
         {
           "market": "Black Sea",
-          "currentPrice": "405-460",
-          "previousPrice": "370-410"
+          "currentPrice": "370-410",
+          "previousPrice": "370-400"
         },
         {
           "market": "India (cfr)",
