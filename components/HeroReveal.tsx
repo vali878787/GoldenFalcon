@@ -7,19 +7,24 @@ interface HeroRevealProps {
   children: ReactNode;
 }
 
-export default function HeroReveal({ children }: HeroRevealProps) {
+export default function HeroReveal({
+  children,
+}: HeroRevealProps) {
+
   return (
     <motion.div
       initial={{
         opacity: 0,
-        scale: 0.96,
+        y: 20,
       }}
+
       animate={{
         opacity: 1,
-        scale: 1,
+        y: 0,
       }}
+
       transition={{
-        duration: 1.6,
+        duration: 1.2,
         ease: [0.25, 0.1, 0.25, 1],
       }}
     >

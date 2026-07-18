@@ -39,7 +39,7 @@ export default function Header() {
     `transition ${activeSection === section ? "text-[#D4AF37] font-semibold" : "text-gray-700"}`;
 
   return (
-    <header className="flex items-center justify-between px-6 py-5 border-b bg-white sticky top-0 z-50">
+    <header className="flex items-center justify-between px-6 py-5 border-b bg-gray-50 sticky top-0 z-50">
       {/* LOGO */}
       <Link href="/" className="flex items-center gap-3">
         < img src="/LOGO.png" alt="Golden Falcon Energy Logo" className="h-10 w-auto" />
