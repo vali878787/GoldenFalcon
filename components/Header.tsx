@@ -58,7 +58,17 @@ export default function Header() {
 >
   Market Prices
 </a>
-        <a href="/#contact" className={linkClass("contact")}>Contact</a >
+
+
+
+<a href="/#contact" className={linkClass("contact")}>Contact</a >
+
+<a
+  href="/verify"
+  className="transition text-gray-700"
+>
+  Verify Document
+</a>
       </nav>
 
       {/* RIGHT SIDE */}
@@ -216,12 +226,22 @@ Other
 </a>
 
 </div>
+
+
           <a 
 href="/#contact"
 onClick={closeMenu}
 className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition"
 >
 Contact
+</a>
+
+<a 
+href="/verify"
+onClick={closeMenu}
+className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition"
+>
+Verify Document
 </a>
         </div>
       </div>
