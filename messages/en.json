@@ -1,0 +1,329 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "workflow": "Workflow",
+    "insights": "Industry Insights",
+    "marketPrices": "Market Prices",
+    "contact": "Contact",
+    "verify": "Verify Document",
+    "language": "中文"
+  },
+
+  "hero": {
+    "tagline": "Global Energy Trading Company",
+    "title": "Golden Falcon Energy",
+    "subtitle": "Connecting Global Energy Markets",
+    "description": "Strategic energy trading, reliable supply networks and market intelligence solutions across global commodity markets.",
+    "productsButton": "Explore Products",
+    "marketButton": "Market Intelligence"
+  },
+
+  "about": {
+    "title": "About Us",
+    "paragraph1": "Golden Falcon Energy was established in Dubai, UAE, with a vision to redefine excellence in the international commodity trading landscape. Since our inception in 2018, we have evolved from a focused regional player into a robust global entity. In 2022, we successfully expanded our operations, leveraging a sophisticated network to facilitate the seamless supply of essential energy and industrial commodities across diverse markets.",
+    "paragraph2": "Our operational track record is our greatest credential. To date, we have successfully executed dozens of high-value transactions across our core sectors, navigating complex logistics and diverse Incoterms with precision. Our reach extends to some of the world's most critical trading hubs, including the strategic ports of Fujairah and Rotterdam, solidifying our reputation as a reliable link in the global supply chain.",
+    "paragraph3": "Golden Falcon Energy stands at the forefront of the international commodity trading industry, bridging the gap between resource-rich origins and the global market's evolving demands. With a steadfast commitment to excellence, we specialize in the strategic sourcing, logistics, and supply of essential energy and industrial commodities, including high-grade petroleum products, petrochemicals, and mineral resources.",
+    "paragraph4": "Our company rules are built upon the pillars of integrity, operational precision, and long-term partnership. We understand that in the world of commodity trading, reliability is the most valuable asset. By leveraging an extensive global network and deep market expertise, we ensure that our clients receive not only high-quality products that meet rigorous international standards but also seamless supply chain solutions that minimize risk and optimize time-to-market.",
+    "paragraph5": "We maintain direct relationships with certified refineries, verified producers, and established suppliers across multiple regions. This allows us to secure and supply commodities including EN590 diesel, jet fuel, fuel oil, iron ore, iron pellets, iron concentrate, urea, sulfur, and other petrochemical products without unnecessary intermediaries.",
+    "paragraph6": "At Golden Falcon Energy, we don't just deliver commodities; we deliver the stability and competitive edge your business needs to thrive. Whether through complex logistics or market-driven pricing, our commercial team is dedicated to transparency, compliance, and excellence at every stage of the transaction.",
+    "paragraph7": "We are dedicated to fostering professional, long-term partnerships and warmly welcome inquiries from serious, qualified principals—both buyers and suppliers—who are committed to transparent, value-driven commodity transactions. We look forward to exploring mutually beneficial opportunities with those who prioritize integrity and operational efficiency."
+  },
+
+  "products": {
+  "title": "Our Products",
+  "subtitle": "We specialize in global trading of energy, mining, and petrochemical products.",
+  "energy": {
+    "title": "Energy",
+    "description": "Diesel EN590, Fuel Oil, Jet A1"
+  },
+  "mining": {
+    "title": "Mining",
+    "description": "Iron Ore, Pellet, Concentrate"
+  },
+  "petrochemical": {
+    "title": "Petrochemical",
+    "description": "Urea, Sulfur, Methanol"
+  }
+},
+
+"workflow": {
+  "title": "Our Operational Workflow",
+  "steps": [
+    "Buyer Issues LOI",
+    "Review & Verification",
+    "SCO / FCO",
+    "Negotiation",
+    "Contract",
+    "Inspection",
+    "Shipment",
+    "Delivery"
+  ]
+},
+"insights": {
+  "title": "Industry Insights",
+  "subtitle": "Explore our latest market intelligence, international trade strategies and practical procurement guidance.",
+  "viewAll": "View All Insights"
+},
+"HomeMarketPrices": {
+  "title": "MARKET PRICES",
+  "description": "Access the latest weekly benchmark prices across global energy and petrochemical markets.",
+  "energy": "Energy",
+  "urea": "Urea",
+  "sulphur": "Sulphur",
+  "other": "Other",
+  "viewMarket": "View Market",
+  "viewAll": "View All Market Prices"
+},
+"contact": {
+  "title": "Submit Your Inquiry",
+  "description": "Please provide your trading requirements. Our commercial team will review your inquiry and respond with the appropriate commercial documentation, including SCO or FCO, where applicable.",
+
+  "form": {
+    "fullName": "Full Name",
+    "company": "Company Name",
+    "whatsapp": "WhatsApp Number (+Country Code)",
+    "message": "Message",
+    "submit": "Send Inquiry"
+  },
+
+  "products": {
+    "energy": "Energy (Diesel, Fuel Oil, Jet A1)",
+    "mining": "Mining (Iron, Steel, Copper)",
+    "petrochemical": "Petrochemical (Urea, Sulphur, Methanol)",
+    "other": "Other"
+  },
+
+  "company": {
+    "label": "Company:",
+    "name": "Golden Falcon Energy"
+  },
+
+  "businessType": {
+    "label": "Business Type:",
+    "value": "Commodity Trading & Service Provider"
+  },
+
+  "location": {
+    "label": "Location:",
+    "value": "Office Entrance, Voco Hotel, Sheikh Zayed, Dubai, UAE"
+  },
+
+  "whatsapp": {
+    "title": "WhatsApp Direct:",
+    "button": "Chat on WhatsApp"
+  },
+
+  "responseTime": "We respond to all legitimate inquiries within 24–48 hours."
+},
+"footer": {
+  "company": {
+    "description": "International commodity trading & service provider specializing in energy, mining, and petrochemical markets. Based in Dubai, UAE."
+  },
+
+  "quickLinks": {
+    "title": "Quick Links",
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "workflow": "Workflow",
+    "insights": "Industry Insights",
+    "contact": "Contact"
+  },
+
+  "contact": {
+    "title": "Contact",
+    "email": "Email:",
+    "whatsapp": "WhatsApp:",
+    "address": "Office Entrance, Voco Hotel, Sheikh Zayed, Dubai, UAE"
+  },
+
+  "copyright": "All rights reserved."
+},
+"energyPage": {
+  "chartTitle": "Market Price Trend (USD/MT)",
+  "diesel": {
+    "title": "DIESEL EN590 10PPM",
+    "description": "Our offered Diesel Fuel strictly complies with the latest EN 590:2022 specifications for automotive diesel oils. It is characterized as an Ultra-Low Sulfur Diesel (ULSD) with a maximum sulfur content of 10 ppm (mg/kg), ensuring full compatibility with Euro 5 and Euro 6 emission control systems (including DPF and SCR technologies). We are fully equipped to execute spot and term contracts with FOB or CIF (Cost, Insurance, and Freight) terms to the following key strategic ports: Rotterdam (ARA Region, Netherlands) Fujairah (UAE – Indian Ocean bunkering hub) Jurong (Singapore – APAC regional hub) Houston (USGC – Americas regional hub)"
+  },
+  "jet": {
+    "title": "JET A-1 FUEL",
+    "description": "Jet A-1 is a high-performance kerosene-type aviation fuel, meticulously refined to meet the most stringent international specifications, including ASTM D1655 and DEF STAN 91-91. As the primary fuel for commercial and cargo turbine-engine aircraft worldwide, Jet A-1 guarantees exceptional reliability, safety, and operational efficiency across diverse climatic conditions and high-altitude flight envelopes. Our Jet A-1 is sourced from leading refineries across strategic global hubs, including the United States, UAE, Saudi Arabia, Qatar, Singapore, South Korea, and the Netherlands."
+  },
+  "hsfo": {
+    "title": "HSFO CST 180 & 380",
+    "description": "Our High Sulfur Fuel Oil (HSFO) range, available in both 180 cSt and 380 cSt grades, serves as the industry-standard energy source for maritime shipping. Engineered for reliability, these fuels are widely utilized in large-scale marine diesel engines and boilers, offering excellent combustion efficiency and high energy output per ton. We strictly adhere to global bunker fuel quality standards, ensuring our HSFO provides optimal lubrication properties and thermal stability. Our robust supply chain ensures consistent availability at major global bunkering hubs, meeting the operational requirements of modern maritime fleets with precision."
+  },
+  "specLabels": {
+    "sulfurContent": "Sulfur Content",
+    "densityAt15": "Density at 15°C",
+    "flashPoint": "Flash Point",
+    "cetaneNumber": "Cetane Number",
+    "freezingPoint": "Freezing Point",
+    "smokePoint": "Smoke Point",
+    "viscosityAt50": "Viscosity at 50°C",
+    "pourPoint": "Pour Point"
+  },
+  "specDesc": {
+    "maxLimit": "Max limit",
+    "typical": "Typical",
+    "minimum": "Minimum",
+    "maximum": "Maximum",
+    "maxWt": "Max wt"
+  },
+  "otherTitle": "OTHER",
+  "otherIntro": "Beyond our primary products, we are fully capable of supplying the following commodities, ensuring genuine sourcing and reliable delivery for our valued buyers worldwide.",
+  "otherProducts": ["LPG", "LNG", "LIGHT CRUDE OIL", "HEAVY CRUDE OIL", "NAPHTHA", "BITUMEN"]
+},
+"miningPage": {
+  "chartTitle": "Market Price Trend (USD/MT)",
+  "pellet": {
+    "title": "IRON ORE PELLETS & CONCENTRATE",
+    "description": "Golden Falcon Energy supplies high-quality Iron Ore Pellets and Iron Ore Concentrate to international steel producers and industrial consumers. Through our established network of verified producers and strategic partners, we support long-term procurement programs with reliable logistics and consistent supply performance. We are capable of arranging continuous monthly shipments based on the buyer's required volume and contractual schedule. Depending on project requirements and product specifications, supply can be sourced from Brazil, Australia, Iran, and other qualified origins."
+  },
+  "steel": {
+    "title": "STEEL & IRON PRODUCTS",
+    "description": "Our portfolio of steel and iron products caters to the infrastructure, construction, and manufacturing sectors. We offer a diverse range of structural steel grades that combine high tensile strength with exceptional durability and weldability. Every shipment undergoes rigorous quality assurance to meet international construction codes, ensuring safety and efficiency for your large-scale infrastructure projects."
+  },
+  "copper": {
+    "title": "COPPER CATHODE",
+    "description": "We supply high-purity Grade A Copper Cathodes, widely regarded as the gold standard in the electrical and manufacturing industries. With a minimum purity of 99.99%, our cathodes ensure optimal conductivity and performance. Our supply chain is optimized for the global electronics and energy transition sectors, providing consistent, reliable, and high-quality raw material essential for high-tech industrial applications."
+  },
+  "specLabels": {
+    "feContent": "Fe Content",
+    "sio2": "SiO2",
+    "al2o3": "Al2O3",
+    "sizePellets": "Size (Pellets)",
+    "grade": "Grade",
+    "carbon": "Carbon",
+    "yieldStrength": "Yield Strength",
+    "tensileStrength": "Tensile Strength",
+    "purity": "Purity",
+    "form": "Form",
+    "impurity": "Impurity"
+  },
+  "specDesc": {
+    "concentrate": "Concentrate",
+    "maximum": "Maximum",
+    "standard": "Standard",
+    "structural": "Structural",
+    "max": "Max",
+    "min": "Min",
+    "minimum": "Minimum"
+  },
+  "otherTitle": "OTHER",
+  "otherIntro": "Beyond our primary products, we are fully capable of supplying the following commodities, ensuring genuine sourcing and reliable delivery for our valued buyers worldwide.",
+  "otherProducts": ["ALUMINUM", "ZINC", "LEAD", "CHROMITE", "MANGANESE"]
+},
+"petrochemicalPage": {
+  "chartTitle": "Market Price Trend (USD/MT)",
+  "urea": {
+    "title": "UREA 46% GRANULAR",
+    "description": "Our high-quality Urea 46% Granular is a premium nitrogen fertilizer widely used in global agriculture. With a minimum nitrogen content of 46%, it ensures optimal crop yield and soil health. Our product is manufactured under strict quality controls, offering excellent physical strength and low moisture levels to ensure stability during long-haul transport."
+  },
+  "sulfur": {
+    "title": "SULFUR",
+    "description": "Sulfur is a vital industrial raw material widely used in the production of sulfuric acid, phosphate fertilizers, chemical manufacturing, mining, and various industrial processes. We supply high-quality sulfur in bulk, meeting international specifications and suitable for global industrial applications. Through our reliable sourcing network, we are able to provide sulfur from leading producing countries, including Kazakhstan, Turkmenistan, Uzbekistan, and other CIS and regional suppliers, ensuring competitive pricing, consistent quality, and dependable delivery for international buyers."
+  },
+  "methanol": {
+    "title": "METHANOL",
+    "description": "Methanol is a versatile chemical building block essential for producing formaldehyde, acetic acid, and various fuel additives. With a minimum purity of 99.85%, our methanol meets the most rigorous international standards. We facilitate efficient, large-scale supply chains, serving diverse industrial sectors from plastics to energy storage and chemical synthesis."
+  },
+  "specLabels": {
+    "nitrogenContent": "Nitrogen Content",
+    "biuret": "Biuret",
+    "moisture": "Moisture",
+    "form": "Form",
+    "purity": "Purity",
+    "ashContent": "Ash Content",
+    "color": "Color",
+    "waterContent": "Water Content",
+    "acetone": "Acetone",
+    "appearance": "Appearance"
+  },
+  "specDesc": {
+    "minimum": "Minimum",
+    "maximum": "Maximum",
+    "standard": "Standard",
+    "typical": "Typical",
+    "liquid": "Liquid"
+  },
+  "specValues": {
+    "granular": "Granular",
+    "brightYellow": "Bright Yellow",
+    "clear": "Clear"
+  },
+  "otherTitle": "OTHER",
+  "otherIntro": "Beyond our primary products, we are fully capable of supplying the following commodities, ensuring genuine sourcing and reliable delivery for our valued buyers worldwide.",
+  "otherProducts": ["POLYETHYLENE (PE)", "POLYPROPYLENE (PP)"]
+},
+"insightsPage": {
+  "title": "Industry Insights",
+  "subtitle": "Explore expert insights, commodity market intelligence, international trade strategies, logistics updates and practical procurement knowledge from Golden Falcon Energy."
+},
+"articlePage": {
+  "contactButton": "Contact Us Now",
+  "conclusion": "Conclusion"
+},
+"marketPricesPage": {
+  "title": "MARKET PRICES",
+  "subtitle": "Weekly Benchmark Prices",
+  "viewMarket": "View Market →",
+  "cards": {
+    "energy": {
+      "title": "Energy",
+      "description": "Weekly benchmark pricing across global energy markets."
+    },
+    "sulphur": {
+      "title": "Sulphur",
+      "description": "International sulphur market intelligence and price movements."
+    },
+    "urea": {
+      "title": "Urea",
+      "description": "Global urea benchmark assessments and weekly trends."
+    },
+    "other": {
+      "title": "Other",
+      "description": "Additional commodity benchmark prices and market updates."
+    }
+  }
+},
+"marketPricesEnergyPage": {
+  "title": "MARKET PRICES",
+  "subtitle": "Weekly Benchmark Price Assessments",
+  "latestUpdate": "Latest Update"
+},
+"urea": {
+  "title": "UREA",
+  "subtitle": "Weekly Benchmark Price Comparison",
+  "updated": "Latest Update"
+},
+"sulphur": {
+  "title": "SULPHUR",
+  "subtitle": "Weekly Benchmark Price Comparison",
+  "updated": "Latest Update"
+},
+"other": {
+  "title": "OTHER",
+  "subtitle": "Weekly Benchmark Price Comparison",
+  "updated": "Latest Update"
+},
+"verify": {
+  "title": "Document Verification",
+  "subtitle": "Verify the authenticity of documents issued by Golden Falcon Energy",
+  "placeholder": "Enter your document reference code",
+  "verify": "Verify",
+  "verifying": "Verifying...",
+  "verified": "Document Verified",
+  "verifiedText": "This document has been verified and confirmed as authentic by",
+  "referenceCode": "Reference Code:",
+  "downloadText": "You can download the verified original document below.",
+  "download": "Download Verified Document",
+  "failed": "Verification Failed",
+  "failedText": "This document has not been verified by Golden Falcon Energy.",
+  "serviceUnavailable": "Verification service unavailable"
+}
+
+
+}

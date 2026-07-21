@@ -1,0 +1,328 @@
+{
+  "header": {
+    "home": "首页",
+    "about": "关于我们",
+    "products": "产品",
+    "workflow": "业务流程",
+    "insights": "行业洞察",
+    "marketPrices": "市场价格",
+    "contact": "联系我们",
+    "verify": "验证文件",
+    "language": "English"
+  },
+
+  "hero": {
+    "tagline": "全球能源贸易公司",
+    "title": "Golden Falcon Energy",
+    "subtitle": "连接全球能源市场",
+    "description": "提供全球大宗商品市场的能源贸易、可靠供应网络以及市场信息服务。",
+    "productsButton": "查看产品",
+    "marketButton": "市场信息"
+  },
+
+  "about": {
+    "title": "关于我们",
+    "paragraph1": "Golden Falcon Energy 成立于阿拉伯联合酋长国迪拜，致力于重新定义国际大宗商品贸易领域的卓越标准。自2018年成立以来，我们已从专注于区域市场的企业发展成为实力雄厚的全球化公司。2022年，我们成功扩展了业务规模，凭借完善的网络体系，实现了关键能源与工业大宗商品在多元市场中的无缝供应。",
+    "paragraph2": "我们的实际运营业绩是最有力的证明。迄今为止，我们已在核心业务领域成功完成了数十笔高价值交易，精准应对复杂的物流安排与多样化的国际贸易术语（Incoterms）。我们的业务网络延伸至全球最重要的贸易枢纽，包括富查伊拉港与鹿特丹港等战略港口，进一步巩固了我们作为全球供应链中可靠一环的声誉。",
+    "paragraph3": "Golden Falcon Energy 处于国际大宗商品贸易行业的前沿，连接资源产地与全球市场不断变化的需求。凭借对卓越品质的坚定追求，我们专注于高等级石油产品、石化产品及矿产资源等关键能源与工业大宗商品的战略采购、物流与供应。",
+    "paragraph4": "我们公司的经营准则建立在诚信、运营精准与长期合作三大基石之上。我们深知，在大宗商品贸易领域，可靠性是最宝贵的资产。凭借广泛的全球网络与深厚的市场专业知识，我们确保客户不仅能获得符合严格国际标准的高质量产品，还能获得可将风险降至最低、优化上市时间的无缝供应链解决方案。",
+    "paragraph5": "我们与多个地区的持证炼油厂、经过验证的生产商及信誉良好的供应商保持直接合作关系，从而能够在不经过不必要中间环节的情况下，采购并供应包括EN590柴油、航空燃油、燃料油、铁矿石、铁矿球团、铁精矿、尿素、硫磺及其他石化产品在内的多种大宗商品。",
+    "paragraph6": "在 Golden Falcon Energy，我们所提供的不仅仅是大宗商品，更是企业蓬勃发展所需的稳定性与竞争优势。无论是应对复杂的物流挑战，还是响应市场驱动的定价机制，我们的商务团队始终致力于在交易的每一个环节保持透明、合规与卓越。",
+    "paragraph7": "我们致力于建立专业、长期的合作伙伴关系，热忱欢迎认真、合格的买家与供应商就透明、以价值为导向的大宗商品交易进行洽谈。我们期待与重视诚信与运营效率的伙伴携手，共同探索互利共赢的合作机会。"
+  },
+
+  "products": {
+  "title": "我们的产品",
+  "subtitle": "我们专注于能源、矿产及石化产品的全球贸易。",
+  "energy": {
+    "title": "能源",
+    "description": "EN590柴油、燃料油、航空燃油（Jet A1）"
+  },
+  "mining": {
+    "title": "矿产",
+    "description": "铁矿石、铁矿球团、铁精矿"
+  },
+  "petrochemical": {
+    "title": "石化产品",
+    "description": "尿素、硫磺、甲醇"
+  }
+},
+"workflow": {
+  "title": "我们的运营流程",
+  "steps": [
+    "买方发出意向书（LOI）",
+    "审核与验证",
+    "SCO / FCO",
+    "谈判",
+    "合同签署",
+    "检验",
+    "装运",
+    "交付"
+  ]
+},
+"insights": {
+  "title": "行业洞察",
+  "subtitle": "探索我们最新的市场情报、国际贸易策略以及实用的采购指导。",
+  "viewAll": "查看全部洞察"
+},
+"HomeMarketPrices": {
+  "title": "市场价格",
+  "description": "获取全球能源和石化市场最新的每周基准价格。",
+  "energy": "能源",
+  "urea": "尿素",
+  "sulphur": "硫磺",
+  "other": "其他",
+  "viewMarket": "查看市场",
+  "viewAll": "查看所有市场价格"
+},
+"contact": {
+  "title": "提交您的询盘",
+  "description": "请填写您的贸易需求。我们的商务团队将在审核您的询盘后，根据需要提供相应的商业文件，包括 SCO 或 FCO。",
+
+  "form": {
+    "fullName": "姓名",
+    "company": "公司名称",
+    "whatsapp": "WhatsApp 电话（含国家代码）",
+    "message": "留言",
+    "submit": "提交询盘"
+  },
+
+  "products": {
+    "energy": "能源（柴油、燃料油、Jet A1）",
+    "mining": "矿业（铁、钢、铜）",
+    "petrochemical": "石化（尿素、硫磺、甲醇）",
+    "other": "其他"
+  },
+
+  "company": {
+    "label": "公司：",
+    "name": "Golden Falcon Energy"
+  },
+
+  "businessType": {
+    "label": "业务类型：",
+    "value": "大宗商品贸易与服务提供商"
+  },
+
+  "location": {
+    "label": "地址：",
+    "value": "阿联酋迪拜 Sheikh Zayed 路 Voco Hotel 办公入口"
+  },
+
+  "whatsapp": {
+    "title": "WhatsApp 联系：",
+    "button": "通过 WhatsApp 联系"
+  },
+
+  "responseTime": "我们将在 24–48 小时内回复所有真实有效的询盘。"
+},
+"footer": {
+  "company": {
+    "description": "国际大宗商品贸易与服务提供商，专注于能源、矿业及石化产品市场，总部位于阿联酋迪拜。"
+  },
+
+  "quickLinks": {
+    "title": "快速链接",
+    "home": "首页",
+    "about": "关于我们",
+    "products": "产品",
+    "workflow": "合作流程",
+    "insights": "行业洞察",
+    "contact": "联系我们"
+  },
+
+  "contact": {
+    "title": "联系方式",
+    "email": "邮箱：",
+    "whatsapp": "WhatsApp：",
+    "address": "阿联酋迪拜 Sheikh Zayed 路 Voco Hotel 办公入口"
+  },
+
+  "copyright": "版权所有。"
+},
+"energyPage": {
+  "chartTitle": "市场价格走势（美元/吨）",
+  "diesel": {
+    "title": "柴油 EN590 10PPM",
+    "description": "我们提供的柴油严格符合最新的EN 590:2022汽车用柴油标准，属于超低硫柴油（ULSD），硫含量最高不超过10 ppm（毫克/千克），完全兼容欧五及欧六排放控制系统（包括DPF及SCR技术）。我们具备执行现货及长期合同的能力，可按FOB或CIF条款供应至以下主要战略港口：鹿特丹（荷兰ARA地区）、富查伊拉（阿联酋——印度洋燃油补给枢纽）、裕廊（新加坡——亚太区域枢纽）、休斯顿（美国墨西哥湾沿岸——美洲区域枢纽）。"
+  },
+  "jet": {
+    "title": "喷气燃料 JET A-1",
+    "description": "Jet A-1是一种高性能煤油型航空燃料，严格按照最严苛的国际标准精炼而成，包括ASTM D1655及DEF STAN 91-91标准。作为全球商用及货运涡轮发动机飞机的主要燃料，Jet A-1在各种气候条件及高空飞行环境下均能保证卓越的可靠性、安全性与运行效率。我们的Jet A-1采购自全球多个战略枢纽的领先炼油厂，包括美国、阿联酋、沙特阿拉伯、卡塔尔、新加坡、韩国及荷兰。"
+  },
+  "hsfo": {
+    "title": "重质燃料油 HSFO CST 180 & 380",
+    "description": "我们提供180 cSt及380 cSt两种规格的高硫燃料油（HSFO），是海运行业的标准能源来源。这些燃料专为大型船用柴油发动机及锅炉设计，具有优异的燃烧效率及每吨高能量输出。我们严格遵守全球船用燃料质量标准，确保HSFO具备最佳的润滑性能及热稳定性。我们强大的供应链确保在全球主要燃油补给枢纽稳定供应，精准满足现代海运船队的运营需求。"
+  },
+  "specLabels": {
+    "sulfurContent": "硫含量",
+    "densityAt15": "15°C密度",
+    "flashPoint": "闪点",
+    "cetaneNumber": "十六烷值",
+    "freezingPoint": "凝固点",
+    "smokePoint": "烟点",
+    "viscosityAt50": "50°C粘度",
+    "pourPoint": "倾点"
+  },
+  "specDesc": {
+    "maxLimit": "最大限值",
+    "typical": "典型值",
+    "minimum": "最低值",
+    "maximum": "最大值",
+    "maxWt": "最大重量百分比"
+  },
+  "otherTitle": "其他产品",
+  "otherIntro": "除主营产品外，我们还具备供应以下大宗商品的能力，确保为全球客户提供真实可靠的货源与稳定交付。",
+  "otherProducts": ["液化石油气 (LPG)", "液化天然气 (LNG)", "轻质原油", "重质原油", "石脑油", "沥青"]
+},
+"miningPage": {
+  "chartTitle": "市场价格走势（美元/吨）",
+  "pellet": {
+    "title": "铁矿球团及精矿",
+    "description": "Golden Falcon Energy 向国际钢铁生产商及工业用户供应高品质铁矿球团及铁精矿。凭借我们与经过验证的生产商及战略合作伙伴建立的稳固网络，我们支持长期采购计划，提供可靠的物流及稳定的供应表现。我们能够根据买方所需数量及合同安排组织持续的月度装运。根据项目需求及产品规格，货源可来自巴西、澳大利亚、伊朗及其他合格产地。"
+  },
+  "steel": {
+    "title": "钢铁产品",
+    "description": "我们的钢铁产品系列服务于基础设施、建筑及制造业领域。我们提供多种结构钢等级，兼具高抗拉强度、卓越耐久性及可焊性。每一批货物均经过严格的质量检验，符合国际建筑规范，确保您大型基础设施项目的安全与高效。"
+  },
+  "copper": {
+    "title": "阴极铜",
+    "description": "我们供应高纯度A级阴极铜，被广泛视为电气及制造行业的黄金标准。我们的阴极铜纯度不低于99.99%，确保最佳导电性能与表现。我们的供应链专为全球电子及能源转型行业优化，为高科技工业应用提供稳定、可靠、高品质的原材料。"
+  },
+  "specLabels": {
+    "feContent": "铁含量",
+    "sio2": "二氧化硅（SiO2）",
+    "al2o3": "三氧化二铝（Al2O3）",
+    "sizePellets": "球团粒度",
+    "grade": "等级",
+    "carbon": "碳含量",
+    "yieldStrength": "屈服强度",
+    "tensileStrength": "抗拉强度",
+    "purity": "纯度",
+    "form": "形态",
+    "impurity": "杂质含量"
+  },
+  "specDesc": {
+    "concentrate": "精矿",
+    "maximum": "最大值",
+    "standard": "标准值",
+    "structural": "结构用",
+    "max": "最大",
+    "min": "最小",
+    "minimum": "最低值"
+  },
+  "otherTitle": "其他产品",
+  "otherIntro": "除主营产品外，我们还具备供应以下大宗商品的能力，确保为全球客户提供真实可靠的货源与稳定交付。",
+  "otherProducts": ["铝", "锌", "铅", "铬铁矿", "锰"]
+},
+"petrochemicalPage": {
+  "chartTitle": "市场价格走势（美元/吨）",
+  "urea": {
+    "title": "尿素 46% 颗粒",
+    "description": "我们提供的高品质46%颗粒尿素是一种优质氮肥，广泛应用于全球农业。其氮含量不低于46%，确保作物产量及土壤健康处于最佳状态。我们的产品在严格的质量管控下生产，具有优异的物理强度及较低的水分含量，确保长途运输过程中的稳定性。"
+  },
+  "sulfur": {
+    "title": "硫磺",
+    "description": "硫磺是一种重要的工业原料，广泛用于硫酸、磷肥生产、化工制造、采矿及各类工业流程。我们提供符合国际标准的散装高品质硫磺，适用于全球工业应用。凭借可靠的采购网络，我们能够从哈萨克斯坦、土库曼斯坦、乌兹别克斯坦及其他独联体和区域供应商处提供货源，为国际买家确保有竞争力的价格、稳定的质量及可靠的交付。"
+  },
+  "methanol": {
+    "title": "甲醇",
+    "description": "甲醇是一种多用途的化学基础原料，是生产甲醛、乙酸及各类燃料添加剂不可或缺的原料。我们的甲醇纯度不低于99.85%，符合最严格的国际标准。我们促进高效、大规模的供应链运作，服务于从塑料到能源存储及化学合成等多个工业领域。"
+  },
+  "specLabels": {
+    "nitrogenContent": "氮含量",
+    "biuret": "缩二脲",
+    "moisture": "水分",
+    "form": "形态",
+    "purity": "纯度",
+    "ashContent": "灰分",
+    "color": "颜色",
+    "waterContent": "水含量",
+    "acetone": "丙酮",
+    "appearance": "外观"
+  },
+  "specDesc": {
+    "minimum": "最低值",
+    "maximum": "最大值",
+    "standard": "标准值",
+    "typical": "典型值",
+    "liquid": "液态"
+  },
+  "specValues": {
+    "granular": "颗粒状",
+    "brightYellow": "亮黄色",
+    "clear": "透明"
+  },
+  "otherTitle": "其他产品",
+  "otherIntro": "除主营产品外，我们还具备供应以下大宗商品的能力，确保为全球客户提供真实可靠的货源与稳定交付。",
+  "otherProducts": ["聚乙烯 (PE)", "聚丙烯 (PP)"]
+},
+"insightsPage": {
+  "title": "行业洞察",
+  "subtitle": "探索 Golden Falcon Energy 提供的专业洞见、大宗商品市场情报、国际贸易策略、物流动态以及实用的采购知识。"
+},
+"articlePage": {
+  "contactButton": "立即联系我们",
+  "conclusion": "结论"
+},
+"marketPricesPage": {
+  "title": "市场价格",
+  "subtitle": "每周基准价格",
+  "viewMarket": "查看市场 →",
+  "cards": {
+    "energy": {
+      "title": "能源",
+      "description": "全球能源市场的每周基准定价。"
+    },
+    "sulphur": {
+      "title": "硫磺",
+      "description": "国际硫磺市场情报及价格变动。"
+    },
+    "urea": {
+      "title": "尿素",
+      "description": "全球尿素基准评估及每周趋势。"
+    },
+    "other": {
+      "title": "其他",
+      "description": "其他大宗商品基准价格及市场动态。"
+    }
+  }
+},
+"marketPricesEnergyPage": {
+  "title": "市场价格",
+  "subtitle": "每周基准价格评估",
+  "latestUpdate": "最新更新"
+},
+"urea": {
+  "title": "尿素",
+  "subtitle": "每周基准价格对比",
+  "updated": "最新更新"
+},
+"sulphur": {
+  "title": "硫磺",
+  "subtitle": "每周基准价格对比",
+  "updated": "最新更新"
+},
+"other": {
+  "title": "其他",
+  "subtitle": "每周基准价格对比",
+  "updated": "最新更新"
+},
+"verify": {
+  "title": "文件验证",
+  "subtitle": "验证由 Golden Falcon Energy 签发文件的真实性",
+  "placeholder": "请输入文件参考编号",
+  "verify": "验证",
+  "verifying": "验证中...",
+  "verified": "文件已验证",
+  "verifiedText": "该文件已通过验证，并确认由以下公司正式签发：",
+  "referenceCode": "参考编号：",
+  "downloadText": "您可以下载已验证的原始文件。",
+  "download": "下载已验证文件",
+  "failed": "验证失败",
+  "failedText": "该文件未通过 Golden Falcon Energy 的验证。",
+  "serviceUnavailable": "验证服务暂时不可用"
+}
+
+
+}

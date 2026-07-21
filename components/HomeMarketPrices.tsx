@@ -1,43 +1,47 @@
-import Link from "next/link";
-
-const markets = [
-  {
-    title: "Energy",
-    href: "/market-prices/energy",
-  },
-  {
-    title: "Urea",
-    href: "/market-prices/petrochemical/urea",
-  },
-  {
-    title: "Sulphur",
-    href: "/market-prices/petrochemical/sulphur",
-  },
-  {
-
-    title: "Other",
-    href: "/market-prices/petrochemical/other",
-  },
-];
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 export default function HomeMarketPrices() {
+  const t = useTranslations("HomeMarketPrices");
+
+  const markets = [
+    {
+      key: "energy",
+      title: t("energy"),
+      href: "/market-prices/energy",
+    },
+    {
+      key: "urea",
+      title: t("urea"),
+      href: "/market-prices/petrochemical/urea",
+    },
+    {
+      key: "sulphur",
+      title: t("sulphur"),
+      href: "/market-prices/petrochemical/sulphur",
+    },
+    {
+      key: "other",
+      title: t("other"),
+      href: "/market-prices/petrochemical/other",
+    },
+  ];
+
   return (
     <section
-  id="market-prices"
-  className="bg-[#F7F8FA] py-24"
->
-
+      id="market-prices"
+      className="bg-[#F7F8FA] py-24"
+    >
       <div className="max-w-6xl mx-auto px-6">
 
         <div className="w-40 h-1 bg-[#C8A24A] rounded-full mb-8" />
 
         <h2 className="text-4xl font-bold tracking-wide text-[#0F2E4D]">
-          MARKET PRICES
+          {t("title")}
         </h2>
 
         <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-600">
-          Access the latest weekly benchmark prices across global energy and
-          petrochemical markets.
+          {t("description")}
         </p>
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -45,7 +49,7 @@ export default function HomeMarketPrices() {
           {markets.map((market) => (
 
             <Link
-              key={market.title}
+              key={market.key}
               href={market.href}
               className="
                 rounded-2xl
@@ -68,7 +72,7 @@ export default function HomeMarketPrices() {
               </h3>
 
               <p className="mt-6 text-sm font-semibold text-[#C8A24A]">
-                View Market →
+                {t("viewMarket")} →
               </p>
 
             </Link>
@@ -94,7 +98,7 @@ export default function HomeMarketPrices() {
               hover:bg-[#163D63]
             "
           >
-            View All Market Prices
+            {t("viewAll")}
           </Link>
 
         </div>

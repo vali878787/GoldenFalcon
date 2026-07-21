@@ -1,3 +1,4 @@
+import { getTranslations } from "next-intl/server";
 import WeeklyComparisonSection from "@/components/MarketPrices/petrochemical/WeeklyComparisonSection";
 import WeekNavigator from "@/components/MarketPrices/WeekNavigator";
 import Footer from "@/components/Footer";
@@ -14,53 +15,49 @@ interface PageProps {
   }>;
 }
 
-export default async function UreaPage({
+export default async function SulphurPage({
   searchParams,
 }: PageProps) {
+  const t = await getTranslations("sulphur");
 
-  const params =
-  (await searchParams) ?? {};
+  const params = (await searchParams) ?? {};
 
-const historyFile =
-  params.history;
+  const historyFile = params.history;
 
-const prices =
-  !historyFile || historyFile === "latest"
-    ? await loadLatestComparisonPrices(
-        "petrochemical",
-        "urea"
-      )
-    : await loadComparisonHistoryPrices(
-        "petrochemical",
-        historyFile,
-        "urea"
-      );
+  const prices =
+    !historyFile || historyFile === "latest"
+      ? await loadLatestComparisonPrices(
+          "petrochemical",
+          "sulphur"
+        )
+      : await loadComparisonHistoryPrices(
+          "petrochemical",
+          historyFile,
+          "sulphur"
+        );
 
-const history =
-  await loadComparisonHistory(
+  const history = await loadComparisonHistory(
     "petrochemical",
-    "urea"
+    "sulphur"
   );
 
-const currentIndex =
-  history.findIndex(
-    item => item.file === historyFile
+  const currentIndex = history.findIndex(
+    (item) => item.file === historyFile
   );
 
-const previousFile =
-  historyFile
-    ? history[currentIndex + 1]?.file
-    : history[0]?.file;
+  const previousFile =
+    historyFile
+      ? history[currentIndex + 1]?.file
+      : history[0]?.file;
 
-const nextFile =
-  !historyFile
-    ? undefined
-    : currentIndex === 0
-      ? "latest"
-      : history[currentIndex - 1]?.file;
+  const nextFile =
+    !historyFile
+      ? undefined
+      : currentIndex === 0
+        ? "latest"
+        : history[currentIndex - 1]?.file;
 
-  const sections =
-    prices?.sections ?? [];
+  const sections = prices?.sections ?? [];
 
   return (
     <>
@@ -79,15 +76,15 @@ const nextFile =
             <div>
 
               <h1 className="text-5xl font-bold tracking-wide text-[#0F2E4D]">
-                UREA
+                {t("title")}
               </h1>
 
               <p className="mt-4 text-gray-600 text-lg">
-                Weekly Benchmark Price Comparison
+                {t("subtitle")}
               </p>
 
               <p className="text-gray-500 mt-1">
-                Latest Update • {prices?.date ?? "-"}
+                {t("updated")} • {prices?.date ?? "-"}
               </p>
 
             </div>
@@ -102,7 +99,7 @@ const nextFile =
 
           {sections.map((section, index) => (
 
-            <div key={index}>
+            <div key={section.title}>
 
               <WeeklyComparisonSection
                 title={section.title}
@@ -126,11 +123,11 @@ const nextFile =
         <div className="pb-20">
 
           <WeekNavigator
-  basePath="/market-prices/petrochemical/urea"
-  date={prices?.date ?? "-"}
-  previous={previousFile}
-  next={nextFile}
-/>
+            basePath="/market-prices/petrochemical/sulphur"
+            date={prices?.date ?? "-"}
+            previous={previousFile}
+            next={nextFile}
+          />
 
         </div>
 
@@ -140,5 +137,4 @@ const nextFile =
 
     </>
   );
-
 }

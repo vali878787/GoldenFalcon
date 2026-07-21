@@ -1,10 +1,13 @@
 "use client";
 
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import ArticleCard from "@/components/ArticleCard";
 import { articles } from "@/content/articles/articles";
 
 export default function HomeInsights() {
+  const t = useTranslations("insights");
+
   const latestArticles = [...articles]
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     .slice(0, 3);
@@ -14,11 +17,11 @@ export default function HomeInsights() {
       <div className="max-w-6xl mx-auto">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0F2E4D]">
-            Industry Insights
+            {t("title")}
           </h2>
           <div className="w-20 h-1 bg-[#D4AF37] rounded-full mx-auto mt-5" />
           <p className="mt-6 text-gray-600 leading-7">
-            Explore our latest market intelligence, international trade strategies and practical procurement guidance.
+            {t("subtitle")}
           </p>
         </div>
 
@@ -33,7 +36,7 @@ export default function HomeInsights() {
             href="/insights"
             className="inline-block bg-[#0F2E4D] text-white px-7 py-3 rounded-xl font-semibold hover:bg-[#D4AF37] transition"
           >
-            View All Insights
+            {t("viewAll")}
           </Link>
         </div>
       </div>

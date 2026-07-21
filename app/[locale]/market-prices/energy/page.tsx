@@ -1,3 +1,4 @@
+import { getTranslations } from "next-intl/server";
 import EnergyPriceSection from "@/components/MarketPrices/energy/EnergyPriceSection";
 import WeekNavigator from "@/components/MarketPrices/WeekNavigator";
 import Footer from "@/components/Footer";
@@ -17,6 +18,7 @@ interface PageProps {
 export default async function EnergyPricesPage({
   searchParams,
 }: PageProps) {
+  const t = await getTranslations("marketPricesEnergyPage");
 
   const params =
     (await searchParams) ?? {};
@@ -75,15 +77,15 @@ const nextFile =
           <div>
 
             <h1 className="text-5xl font-bold tracking-wide text-[#0F2E4D]">
-              MARKET PRICES
+              {t("title")}
             </h1>
 
             <p className="mt-4 text-gray-600 text-lg">
-              Weekly Benchmark Price Assessments
+              {t("subtitle")}
             </p>
 
             <p className="text-gray-500 mt-1">
-              Latest Update • {prices?.date ?? "-"}
+              {t("latestUpdate")} • {prices?.date ?? "-"}
             </p>
 
           </div>

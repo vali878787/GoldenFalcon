@@ -1,3 +1,4 @@
+import { getTranslations } from "next-intl/server";
 import WeeklyComparisonSection from "@/components/MarketPrices/petrochemical/WeeklyComparisonSection";
 import WeekNavigator from "@/components/MarketPrices/WeekNavigator";
 import Footer from "@/components/Footer";
@@ -14,9 +15,11 @@ interface PageProps {
   }>;
 }
 
-export default async function SulphurPage({
+export default async function UreaPage({
   searchParams,
 }: PageProps) {
+  const t = await getTranslations("urea");
+
   const params = (await searchParams) ?? {};
 
   const historyFile = params.history;
@@ -25,34 +28,32 @@ export default async function SulphurPage({
     !historyFile || historyFile === "latest"
       ? await loadLatestComparisonPrices(
           "petrochemical",
-          "sulphur"
+          "urea"
         )
       : await loadComparisonHistoryPrices(
           "petrochemical",
           historyFile,
-          "sulphur"
+          "urea"
         );
 
   const history = await loadComparisonHistory(
     "petrochemical",
-    "sulphur"
+    "urea"
   );
 
   const currentIndex = history.findIndex(
-    item => item.file === historyFile
+    (item) => item.file === historyFile
   );
 
-  const previousFile =
-    historyFile
-      ? history[currentIndex + 1]?.file
-      : history[0]?.file;
+  const previousFile = historyFile
+    ? history[currentIndex + 1]?.file
+    : history[0]?.file;
 
-  const nextFile =
-    !historyFile
-      ? undefined
-      : currentIndex === 0
-        ? "latest"
-        : history[currentIndex - 1]?.file;
+  const nextFile = !historyFile
+    ? undefined
+    : currentIndex === 0
+      ? "latest"
+      : history[currentIndex - 1]?.file;
 
   const sections = prices?.sections ?? [];
 
@@ -73,15 +74,15 @@ export default async function SulphurPage({
             <div>
 
               <h1 className="text-5xl font-bold tracking-wide text-[#0F2E4D]">
-                SULPHUR
+                {t("title")}
               </h1>
 
               <p className="mt-4 text-gray-600 text-lg">
-                Weekly Benchmark Price Comparison
+                {t("subtitle")}
               </p>
 
               <p className="text-gray-500 mt-1">
-                Latest Update • {prices?.date ?? "-"}
+                {t("updated")} • {prices?.date ?? "-"}
               </p>
 
             </div>
@@ -96,7 +97,7 @@ export default async function SulphurPage({
 
           {sections.map((section, index) => (
 
-            <div key={section.title}>
+            <div key={index}>
 
               <WeeklyComparisonSection
                 title={section.title}
@@ -120,7 +121,7 @@ export default async function SulphurPage({
         <div className="pb-20">
 
           <WeekNavigator
-            basePath="/market-prices/petrochemical/sulphur"
+            basePath="/market-prices/petrochemical/urea"
             date={prices?.date ?? "-"}
             previous={previousFile}
             next={nextFile}

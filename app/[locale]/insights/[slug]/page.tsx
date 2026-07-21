@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import Link from "next/link";
+import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 import ArticleSection from "@/components/ArticleSection";
 import Footer from "@/components/Footer";
 import RawArticleContent from "@/components/RawArticleContent";
@@ -38,9 +39,9 @@ function ArticleHero({ article }: { article: ArticleHeader }) {
 
   return (
     <section className="max-w-7xl mx-auto px-6 pt-20">
-      <div className="relative min-h-[520px] md:min-h-[560px] rounded-3xl overflow-hidden">
+      <div className="relative min-h-130 md:min-h-140 rounded-3xl overflow-hidden">
         <Image src={article.heroImage} fill priority alt={article.title} className="object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/70 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-r from-white via-white/70 to-transparent" />
         <div className="absolute left-0 top-0 h-full w-full md:w-2/3 flex flex-col justify-end px-8 pb-12 pt-28 md:px-16 md:pb-16 md:pt-32">
           <span className="absolute left-8 top-8 md:left-16 md:top-10 bg-[#D4AF37] text-white px-4 py-2 rounded-full w-fit text-sm font-semibold">
             {article.category}
@@ -58,21 +59,28 @@ function ArticleHero({ article }: { article: ArticleHeader }) {
   );
 }
 
-function ArticleCta({ article }: { article: ArticleHeader }) {
+async function ArticleCta({
+  article,
+}: {
+  article: ArticleHeader;
+}) {
+  const t = await getTranslations("articlePage");
+
+
   return (
     <section className="max-w-5xl mx-auto px-6 pb-24">
       <div className="bg-[#0F2E4D] rounded-3xl p-10 text-center">
         <h3 className="text-2xl md:text-3xl font-bold text-[#D4AF37] mb-5">{article.cta.title}</h3>
         <p className="text-gray-200 text-base md:text-lg leading-7 md:leading-8">{article.cta.description}</p>
         <Link href="/#contact" className="inline-block mt-8 bg-[#D4AF37] hover:bg-[#b8962f] transition text-white px-10 py-4 rounded-xl font-semibold">
-          Contact Us Now
+          {t("contactButton")}
         </Link>
       </div>
     </section>
   );
 }
 
-function RawArticlePage({ article }: { article: ArticleHeader & { rawContent: string } }) {
+async function RawArticlePage({ article }: { article: ArticleHeader & { rawContent: string } }) {
   return (
     <>
       <main className="relative min-h-screen bg-white overflow-hidden">
@@ -88,7 +96,7 @@ function RawArticlePage({ article }: { article: ArticleHeader & { rawContent: st
           <section className="max-w-5xl mx-auto px-6 py-20">
             <RawArticleContent content={article.rawContent} />
           </section>
-          <ArticleCta article={article} />
+          {await ArticleCta({ article })}
         </div>
       </main>
       <Footer />
@@ -102,7 +110,9 @@ type StandardArticle = ArticleHeader & {
   images: Record<string, string>;
 };
 
-function StandardArticlePage({ article }: { article: StandardArticle }) {
+async function StandardArticlePage({ article }: { article: StandardArticle }) {
+  const t = await getTranslations("articlePage");
+
   const sections = Object.entries(article.content).filter(
     (entry): entry is [string, Section] => entry[0].startsWith("section") && typeof entry[1] === "object",
   );
@@ -123,11 +133,11 @@ function StandardArticlePage({ article }: { article: StandardArticle }) {
         </section>
         <section className="max-w-5xl mx-auto px-6 py-24">
           <div className="bg-gray-50 rounded-3xl p-8 md:p-12 border border-gray-100">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#0F2E4D] mb-6">Conclusion</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-[#0F2E4D] mb-6">{t("conclusion")}</h2>
             <div className="whitespace-pre-line text-gray-700 text-base md:text-lg leading-7 md:leading-8 text-justify">{article.content.conclusion}</div>
           </div>
         </section>
-        <ArticleCta article={article} />
+        {await ArticleCta({ article })}
       </main>
       <Footer />
     </>

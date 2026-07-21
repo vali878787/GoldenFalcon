@@ -1,3 +1,4 @@
+import { getTranslations } from "next-intl/server";
 import WeeklyComparisonSection from "@/components/MarketPrices/petrochemical/WeeklyComparisonSection";
 import WeekNavigator from "@/components/MarketPrices/WeekNavigator";
 import Footer from "@/components/Footer";
@@ -17,6 +18,8 @@ interface PageProps {
 export default async function OtherPage({
   searchParams,
 }: PageProps) {
+  const t = await getTranslations("other");
+
   const params = (await searchParams) ?? {};
 
   const historyFile = params.history;
@@ -39,7 +42,7 @@ export default async function OtherPage({
   );
 
   const currentIndex = history.findIndex(
-    item => item.file === historyFile
+    (item) => item.file === historyFile
   );
 
   const previousFile =
@@ -73,15 +76,15 @@ export default async function OtherPage({
             <div>
 
               <h1 className="text-5xl font-bold tracking-wide text-[#0F2E4D]">
-                OTHER
+                {t("title")}
               </h1>
 
               <p className="mt-4 text-gray-600 text-lg">
-                Weekly Benchmark Price Comparison
+                {t("subtitle")}
               </p>
 
               <p className="text-gray-500 mt-1">
-                Latest Update • {prices?.date ?? "-"}
+                {t("updated")} • {prices?.date ?? "-"}
               </p>
 
             </div>

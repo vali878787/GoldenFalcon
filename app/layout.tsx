@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { getLocale } from "next-intl/server";
 import "./globals.css";
-
-import Header from "@/components/Header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,26 +14,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    "https://www.goldenfalconenergy.com"
-  ),
-
+  metadataBase: new URL("https://www.goldenfalconenergy.com"),
   title: "Golden Falcon Energy",
-
   description:
     "International commodity trading and service provider specializing in energy, mining and petrochemical markets.",
-
   icons: {
     icon: "/icon.png",
   },
-
   openGraph: {
     title: "Golden Falcon Energy",
-    description:
-      "International commodity trading and service provider.",
+    description: "International commodity trading and service provider.",
     url: "https://www.goldenfalconenergy.com",
     siteName: "Golden Falcon Energy",
-
     images: [
       {
         url: "/icon.png",
@@ -43,32 +34,31 @@ export const metadata: Metadata = {
         alt: "Golden Falcon Energy Logo",
       },
     ],
-
     type: "website",
   },
-
   twitter: {
     card: "summary_large_image",
     title: "Golden Falcon Energy",
-    description:
-      "International commodity trading and service provider.",
+    description: "International commodity trading and service provider.",
     images: ["/LOGO.png"],
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const locale = await getLocale();
+
   return (
     <html
-      lang="en"
+      lang={locale}
+      suppressHydrationWarning
       data-scroll-behavior="smooth"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-white text-black">
-
         {/* ORGANIZATION SCHEMA */}
         <script
           type="application/ld+json"
@@ -85,14 +75,7 @@ export default function RootLayout({
           }}
         />
 
-        {/* GLOBAL HEADER */}
-        <Header />
-
-        {/* PAGE CONTENT */}
-        <main className="flex-1">
-          {children}
-        </main>
-
+        {children}
       </body>
     </html>
   );
