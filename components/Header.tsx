@@ -76,20 +76,60 @@ const isHome =
 
       {/* DESKTOP MENU */}
       <nav className="hidden md:flex gap-8 text-sm">
-        <a href={sectionLink("home")} className={linkClass("home")}>{t("home")}</a>
+        <Link
+  href={sectionLink("home")}
+  className={linkClass("home")}
+>
+  {t("home")}
+</Link>
 
-<a href={sectionLink("about")} className={linkClass("about")}>{t("about")}</a>
+<Link
+  href={sectionLink("about")}
+  className={linkClass("about")}
+>
+  {t("about")}
+</Link>
 
-<a href={sectionLink("products")} className={linkClass("products")}>{t("products")}</a>
+<Link
+  href={sectionLink("products")}
+  className={linkClass("products")}
+>
+  {t("products")}
+</Link>
 
-<a href={sectionLink("workflow")} className={linkClass("workflow")}>{t("workflow")}</a>
+<Link
+  href={sectionLink("workflow")}
+  className={linkClass("workflow")}
+>
+  {t("workflow")}
+</Link>
 
-<a href={sectionLink("insights")} className={linkClass("insights")}>{t("insights")}</a>
+<Link
+  href={sectionLink("insights")}
+  className={linkClass("insights")}
+>
+  {t("insights")}
+</Link>
 
-<a href={sectionLink("market-prices")} className={linkClass("market-prices")}>{t("marketPrices")}</a>
+<Link
+  href={sectionLink("market-prices")}
+  className={linkClass("market-prices")}
+>
+  {t("marketPrices")}
+</Link>
 
-<a href={sectionLink("contact")} className={linkClass("contact")}>{t("contact")}</a>
-        <a href="verify" className="transition text-gray-700">{t("verify")}</a>
+<Link
+  href={sectionLink("contact")}
+  className={linkClass("contact")}
+>
+  {t("contact")}
+</Link>
+        <Link
+  href="/verify"
+  className="transition text-gray-700"
+>
+  {t("verify")}
+</Link>
       </nav>
 
       {/* RIGHT SIDE */}
@@ -176,12 +216,20 @@ const isHome =
         }`}
       >
         <div className="flex flex-col space-y-4 px-6 text-white">
-          <a href={sectionLink("home")} onClick={closeMenu} className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition">
-            {t("home")}
-          </a>
-          <a href={sectionLink("about")} onClick={closeMenu} className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition">
-            {t("about")}
-          </a>
+          <Link
+  href={sectionLink("home")}
+  onClick={closeMenu}
+  className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition"
+>
+  {t("home")}
+</Link>
+          <Link
+  href={sectionLink("about")}
+  onClick={closeMenu}
+  className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition"
+>
+  {t("about")}
+</Link>
 
           <button onClick={() => setProductOpen(!productOpen)} className="w-full flex justify-between items-center text-left">
             <span>{t("products")}</span>
@@ -189,20 +237,40 @@ const isHome =
           </button>
 
           <div className={`ml-4 flex flex-col space-y-2 overflow-hidden transition-all duration-300 ${productOpen ? "max-h-40 opacity-100" : "max-h-0 opacity-0"}`}>
-            <a href={sectionLink("products")} onClick={closeMenu} className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition">All products</a>
-            <a href="/mining" onClick={closeMenu}>Mining</a>
+            <Link
+  href={sectionLink("products")}
+  onClick={closeMenu}
+  className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition"
+>
+  All products
+</Link>
+            <Link href="/mining" onClick={closeMenu}>
+  Mining
+</Link>
 
-<a href="/energy" onClick={closeMenu}>Energy</a>
+<Link href="/energy" onClick={closeMenu}>
+  Energy
+</Link>
 
-<a href="/petrochemical" onClick={closeMenu}>Petrochemical</a>
+<Link href="/petrochemical" onClick={closeMenu}>
+  Petrochemical
+</Link>
           </div>
 
-          <a href={sectionLink("workflow")} onClick={closeMenu} className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition">
-            {t("workflow")}
-          </a>
-          <a href={sectionLink("insights")} onClick={closeMenu} className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition">
-            {t("insights")}
-          </a>
+          <Link
+  href={sectionLink("workflow")}
+  onClick={closeMenu}
+  className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition"
+>
+  {t("workflow")}
+</Link>
+          <Link
+  href={sectionLink("insights")}
+  onClick={closeMenu}
+  className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition"
+>
+  {t("insights")}
+</Link>
 
           <button onClick={() => setMarketOpen(!marketOpen)} className="w-full flex justify-between items-center text-left">
             <span>{t("marketPrices")}</span>
@@ -210,18 +278,34 @@ const isHome =
           </button>
 
           <div className={`ml-4 flex flex-col space-y-2 overflow-hidden transition-all duration-300 ${marketOpen ? "max-h-40 opacity-100" : "max-h-0 opacity-0"}`}>
-            <a href="/market-prices/energy" onClick={closeMenu}>Energy</a>
-            <a href="/market-prices/petrochemical/urea" onClick={closeMenu}>Urea</a>
-            <a href="/market-prices/petrochemical/sulphur" onClick={closeMenu}>Sulphur</a>
-            <a href="/market-prices/petrochemical/other" onClick={closeMenu}>Other</a>
+            <Link href="/market-prices/energy" onClick={closeMenu}>
+  Energy
+</Link>
+            <Link href="/market-prices/petrochemical/urea" onClick={closeMenu}>
+  Urea
+</Link>
+            <Link href="/market-prices/petrochemical/sulphur" onClick={closeMenu}>
+  Sulphur
+</Link>
+            <Link href="/market-prices/petrochemical/other" onClick={closeMenu}>
+  Other
+</Link>
           </div>
 
-          <a href={sectionLink("contact")} onClick={closeMenu} className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition">
-            {t("contact")}
-          </a>
-          <a href="/verify" onClick={closeMenu} className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition">
-            {t("verify")}
-          </a>
+          <Link
+  href={sectionLink("contact")}
+  onClick={closeMenu}
+  className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition"
+>
+  {t("contact")}
+</Link>
+          <Link
+  href="/verify"
+  onClick={closeMenu}
+  className="border-b border-white/10 pb-2 hover:text-[#C8A24A] transition"
+>
+  {t("verify")}
+</Link>
 
           {/* MOBILE LANGUAGE SWITCHER */}
           <button onClick={() => setMobileLanguageOpen(!mobileLanguageOpen)} className="w-full flex justify-between items-center text-left pt-2">
