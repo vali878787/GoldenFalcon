@@ -189,6 +189,15 @@ const isHome =
             >
               🇨🇳 <span>中文</span>
             </Link>
+
+            <Link
+  href="/"
+  locale="ar"
+  onClick={() => setLanguageOpen(false)}
+  className="flex items-center gap-3 px-4 py-2.5 text-sm text-gray-700 hover:bg-[#C8A24A]/10 hover:text-[#0F2E4D] transition-colors border-t border-gray-100"
+>
+  🇦🇪 <span>العربية</span>
+</Link>
           </div>
         </div>
 
@@ -320,13 +329,21 @@ const isHome =
             <span>{mobileLanguageOpen ? "−" : "+"}</span>
           </button>
 
-          <div className={`ml-4 flex flex-col space-y-2 overflow-hidden transition-all duration-300 ${mobileLanguageOpen ? "max-h-24 opacity-100" : "max-h-0 opacity-0"}`}>
+          <div className={`ml-4 flex flex-col space-y-2 overflow-hidden transition-all duration-300 ${mobileLanguageOpen ? "max-h-40 opacity-100" : "max-h-0 opacity-0"}`}>
             <Link href="/" locale="en" onClick={closeMenu} className="flex items-center gap-3 border-b border-white/10 pb-2 hover:text-[#C8A24A] transition">
               🇬🇧 <span>English</span>
             </Link>
             <Link href="/" locale="zh" onClick={closeMenu} className="flex items-center gap-3 border-b border-white/10 pb-2 hover:text-[#C8A24A] transition">
               🇨🇳 <span>中文</span>
             </Link>
+            <Link
+  href="/"
+  locale="ar"
+  onClick={closeMenu}
+  className="flex items-center gap-3 border-b border-white/10 pb-2 hover:text-[#C8A24A] transition"
+>
+  🇦🇪 <span>العربية</span>
+</Link>
           </div>
         </div>
       </div>

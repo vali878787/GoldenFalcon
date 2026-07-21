@@ -4,6 +4,7 @@ import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import Header from "@/components/Header";
+import DirectionProvider from "@/components/DirectionProvider";
 
 export const metadata: Metadata = {
   title: "Golden Falcon Energy",
@@ -32,8 +33,9 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider messages={messages}>
-      <Header />
-      {children}
-    </NextIntlClientProvider>
+  <DirectionProvider />
+  <Header />
+  {children}
+</NextIntlClientProvider>
   );
 }
