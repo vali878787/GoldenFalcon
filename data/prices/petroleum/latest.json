@@ -1,7 +1,7 @@
 {
   "week": 30,
-  "date": "21 July 2026",
-  "updatedAt": "2026-07-21T17:07:54.629Z",
+  "date": "23 July 2026",
+  "updatedAt": "2026-07-23T13:54:58.957Z",
   "sections": [
     {
       "title": "FOB Singapore ($/barrel)",
@@ -11,90 +11,90 @@
         {
           "product": "Naphtha",
           "code": "PAAAP00",
-          "price": "92.87-92.91",
-          "previousPrice": "88.47-88.51",
-          "average": 92.89,
-          "change": 4.4
+          "price": "108.68-108.72",
+          "previousPrice": "92.87-92.91",
+          "average": 108.7,
+          "change": 15.81
         },
         {
           "product": "Gasoline 92 unleaded",
           "code": "PGAEY00",
-          "price": "111.50-111.54",
-          "previousPrice": "107.00-107.04",
-          "average": 111.52,
-          "change": 4.5
+          "price": "122.33-122.37",
+          "previousPrice": "111.50-111.54",
+          "average": 122.35,
+          "change": 10.83
         },
         {
           "product": "Gasoline 95 unleaded",
           "code": "PGAEZ00",
-          "price": "115.36-115.40",
-          "previousPrice": "110.86-110.90",
-          "average": 115.38,
-          "change": 4.5
+          "price": "124.90-124.94",
+          "previousPrice": "115.36-115.40",
+          "average": 124.92,
+          "change": 9.54
         },
         {
           "product": "Gasoline 97 unleaded",
           "code": "PGAMS00",
-          "price": "117.23-117.27",
-          "previousPrice": "112.73-112.77",
-          "average": 117.25,
-          "change": 4.5
+          "price": "127.06-127.10",
+          "previousPrice": "117.23-117.27",
+          "average": 127.08,
+          "change": 9.83
         },
         {
           "product": "Kerosene",
           "code": "PJABF00",
-          "price": "147.50-147.54",
-          "previousPrice": "145.78-145.82",
-          "average": 147.52,
-          "change": 1.72
+          "price": "159.75-159.79",
+          "previousPrice": "147.50-147.54",
+          "average": 159.77,
+          "change": 12.25
         },
         {
           "product": "Gasoil 0.05% sulfur",
           "code": "AAFEX00",
-          "price": "148.93-148.97",
-          "previousPrice": "147.54-147.58",
-          "average": 148.95,
-          "change": 1.39
+          "price": "162.60-162.64",
+          "previousPrice": "148.93-148.97",
+          "average": 162.62,
+          "change": 13.67
         },
         {
           "product": "Gasoil 0.25% sulfur",
           "code": "AACUE00",
-          "price": "140.38-140.42",
-          "previousPrice": "138.99-139.03",
-          "average": 140.4,
-          "change": 1.39
+          "price": "154.05-154.09",
+          "previousPrice": "140.38-140.42",
+          "average": 154.07,
+          "change": 13.67
         },
         {
           "product": "Gasoil",
           "code": "POABC00",
-          "price": "149.90-149.94",
-          "previousPrice": "148.51-148.55",
-          "average": 149.92,
-          "change": 1.39
+          "price": "163.57-163.61",
+          "previousPrice": "149.90-149.94",
+          "average": 163.59,
+          "change": 13.67
         },
         {
           "product": "Fuel oil 180 CST 2%",
           "code": "PUAXS00",
-          "price": "558.34-558.38",
-          "previousPrice": "532.53-532.57",
-          "average": 558.36,
-          "change": 25.81
+          "price": "608.60-608.64",
+          "previousPrice": "558.34-558.38",
+          "average": 608.62,
+          "change": 50.26
         },
         {
           "product": "HSFO 180 CST",
           "code": "PUADV00",
-          "price": "546.05-546.09",
-          "previousPrice": "520.81-520.85",
-          "average": 546.07,
-          "change": 25.24
+          "price": "595.21-595.25",
+          "previousPrice": "546.05-546.09",
+          "average": 595.23,
+          "change": 49.16
         },
         {
           "product": "HSFO 380 CST",
           "code": "PPXDK00",
-          "price": "535.68-535.72",
-          "previousPrice": "512.05-512.09",
-          "average": 535.7,
-          "change": 23.63
+          "price": "584.09-584.13",
+          "previousPrice": "535.68-535.72",
+          "average": 584.11,
+          "change": 48.41
         }
       ]
     },
@@ -106,10 +106,10 @@
         {
           "product": "MTBE",
           "code": "PHALF00",
-          "price": "916.19-918.19",
-          "previousPrice": "887.88-889.88",
-          "average": 917.19,
-          "change": 28.31
+          "price": "1001.32-1003.32",
+          "previousPrice": "916.19-918.19",
+          "average": 1002.32,
+          "change": 85.13
         }
       ]
     },
@@ -121,58 +121,58 @@
         {
           "product": "Naphtha Japan $ per mt",
           "code": "AAXFE00",
-          "price": "805.25-805.75",
-          "previousPrice": "766.75-767.25",
-          "average": 805.5,
-          "change": 38.5
+          "price": "895.26-895.75",
+          "previousPrice": "805.25-805.75",
+          "average": 895.5,
+          "change": 90
         },
         {
           "product": "Naphtha",
           "code": "PAAAQ00",
-          "price": "90.93-90.97",
-          "previousPrice": "86.48-86.52",
-          "average": 90.95,
-          "change": 4.45
+          "price": "105.58-105.62",
+          "previousPrice": "90.93-90.97",
+          "average": 105.6,
+          "change": 14.65
         },
         {
           "product": "Gasoline 92 unleaded",
           "code": "AAXEL00",
-          "price": "107.83-107.87",
-          "previousPrice": "103.98-104.02",
-          "average": 107.85,
-          "change": 3.85
+          "price": "117.86-117.90",
+          "previousPrice": "107.83-107.87",
+          "average": 117.88,
+          "change": 10.03
         },
         {
           "product": "Reforming Spread",
           "code": "AAXEO00",
-          "price": "16.88-16.92",
-          "previousPrice": "17.48-17.52",
-          "average": 16.9,
-          "change": -0.6
+          "price": "12.26/12.30",
+          "previousPrice": "16.88-16.92",
+          "average": null,
+          "change": null
         },
         {
           "product": "Kerosene",
           "code": "PJABS00",
-          "price": "144.38-144.42",
-          "previousPrice": "142.16-142.20",
-          "average": 144.4,
-          "change": 2.22
+          "price": "156.96-157.00",
+          "previousPrice": "144.38-144.42",
+          "average": 156.98,
+          "change": 12.58
         },
         {
           "product": "Gasoil",
           "code": "POAFC00",
-          "price": "145.76-145.80",
-          "previousPrice": "143.58-143.62",
-          "average": 145.78,
-          "change": 2.18
+          "price": "157.45-157.49",
+          "previousPrice": "145.76-145.80",
+          "average": 157.47,
+          "change": 11.69
         },
         {
           "product": "HSFO 180 $ per mt",
           "code": "PUAXZ00",
-          "price": "535.23-535.27",
-          "previousPrice": "511.48-511.52",
-          "average": 535.25,
-          "change": 23.75
+          "price": "577.53-577.57",
+          "previousPrice": "535.23-535.27",
+          "average": 577.55,
+          "change": 42.3
         }
       ]
     },
@@ -184,74 +184,74 @@
         {
           "product": "Naphtha $ per mt",
           "code": "PAAAA00",
-          "price": "740.75-764.25",
-          "previousPrice": "702.75-724.25",
-          "average": 752.5,
-          "change": 39
+          "price": "865.75-895.25",
+          "previousPrice": "740.75-764.25",
+          "average": 880.5,
+          "change": 128
         },
         {
           "product": "Naphtha LR2 $ per mt",
           "code": "AAIDA00",
-          "price": "740.99-764.48",
-          "previousPrice": "702.99-724.48",
-          "average": 752.74,
-          "change": 39
+          "price": "865.99-895.48",
+          "previousPrice": "740.99-764.48",
+          "average": 880.74,
+          "change": 128
         },
         {
           "product": "Kerosene",
           "code": "PJAAA00",
-          "price": "141.43-141.47",
-          "previousPrice": "139.71-139.75",
-          "average": 141.45,
-          "change": 1.72
+          "price": "153.68-153.72",
+          "previousPrice": "141.43-141.47",
+          "average": 153.7,
+          "change": 12.25
         },
         {
           "product": "Gasoil 10 ppm",
           "code": "AAIDT00",
-          "price": "143.46-143.50",
-          "previousPrice": "142.07-142.11",
-          "average": 143.48,
-          "change": 1.39
+          "price": "157.13-157.17",
+          "previousPrice": "143.46-143.50",
+          "average": 157.15,
+          "change": 13.67
         },
         {
           "product": "Gasoil 0.005% sulfur",
           "code": "AASGJ00",
-          "price": "142.96-143.00",
-          "previousPrice": "141.60-141.64",
-          "average": 142.98,
-          "change": 1.36
+          "price": "156.63-156.67",
+          "previousPrice": "142.96-143.00",
+          "average": 156.65,
+          "change": 13.67
         },
         {
           "product": "Gasoil 0.05% sulfur",
           "code": "AAFEZ00",
-          "price": "137.96-138.00",
-          "previousPrice": "137.07-137.11",
-          "average": 137.98,
-          "change": 0.89
+          "price": "151.13-151.17",
+          "previousPrice": "137.96-138.00",
+          "average": 151.15,
+          "change": 13.17
         },
         {
           "product": "Gasoil 0.25% sulfur",
           "code": "AACUA00",
-          "price": "137.46-137.50",
-          "previousPrice": "136.82-136.86",
-          "average": 137.48,
-          "change": 0.64
+          "price": "150.13-150.17",
+          "previousPrice": "137.46-137.50",
+          "average": 150.15,
+          "change": 12.67
         },
         {
           "product": "Gasoil",
           "code": "POAAT00",
-          "price": "143.46-143.50",
-          "previousPrice": "142.07-142.11",
-          "average": 143.48,
-          "change": 1.39
+          "price": "157.13-157.17",
+          "previousPrice": "143.46-143.50",
+          "average": 157.15,
+          "change": 13.67
         },
         {
           "product": "HSFO 180 CST $ per mt",
           "code": "PUABE00",
-          "price": "479.60-479.64",
-          "previousPrice": "456.46-456.48",
-          "average": 479.62,
-          "change": 23.15
+          "price": "528.76-528.80",
+          "previousPrice": "479.60-479.64",
+          "average": 528.78,
+          "change": 49.16
         }
       ]
     },
@@ -263,58 +263,58 @@
         {
           "product": "Naphtha",
           "code": "PAAAD00",
-          "price": "828.00-851.50",
-          "previousPrice": "790.00-811.50",
-          "average": 839.75,
-          "change": 39
+          "price": "953.00-982.50",
+          "previousPrice": "828.00-851.50",
+          "average": 967.75,
+          "change": 128
         },
         {
           "product": "Naphtha MORI Strip",
           "code": "AAXFH00",
-          "price": "744.00-744.50",
-          "previousPrice": "720.50-721.00",
-          "average": 744.25,
-          "change": 23.5
+          "price": "794.25-794.75",
+          "previousPrice": "744.00-744.50",
+          "average": 794.5,
+          "change": 50.25
         },
         {
           "product": "Naphtha 2nd 1/2 Aug",
           "code": "PAAAE00",
-          "price": "865.25-865.75",
-          "previousPrice": "821.25-821.75",
-          "average": 865.5,
-          "change": 44
+          "price": "1008.25-1008.75",
+          "previousPrice": "865.25-865.75",
+          "average": 1008.5,
+          "change": 143
         },
         {
           "product": "Naphtha 1st 1/2 Sep",
           "code": "PAAAF00",
-          "price": "851.00-851.50",
-          "previousPrice": "811.00-811.50",
-          "average": 851.25,
-          "change": 40
+          "price": "982.00-982.50",
+          "previousPrice": "851.00-851.50",
+          "average": 982.25,
+          "change": 131
         },
         {
           "product": "Naphtha 2nd 1/2 Sep",
           "code": "PAAAG00",
-          "price": "828.00-828.50",
-          "previousPrice": "790.00-790.50",
-          "average": 828.25,
-          "change": 38
+          "price": "953.00-953.50",
+          "previousPrice": "828.00-828.50",
+          "average": 953.25,
+          "change": 125
         },
         {
           "product": "Gasoline unleaded $ per barrel",
           "code": "PGACW00",
-          "price": "115.09-115.13",
-          "previousPrice": "110.61-110.65",
-          "average": 115.11,
-          "change": 4.48
+          "price": "125.83-125.87",
+          "previousPrice": "115.09-115.13",
+          "average": 125.85,
+          "change": 10.74
         },
         {
           "product": "Kerosene $ per barrel",
           "code": "PJAAN00",
-          "price": "148.71-148.75",
-          "previousPrice": "146.97-147.01",
-          "average": 148.73,
-          "change": 1.74
+          "price": "160.93-160.97",
+          "previousPrice": "148.71-148.75",
+          "average": 160.95,
+          "change": 12.22
         }
       ]
     }
