@@ -51,4 +51,15 @@ Choosing the correct supplier can significantly reduce commercial risks and ensu
     readTime: "12 min read",
     content: "",
   },
+
+  {
+    slug: "gold-precious-metals-market-2026",
+    title: "Why Gold and Precious Metals Have Become More Important in 2026",
+    description:
+      "An industry analysis covering gold, silver, platinum and palladium price dynamics, central bank demand, ETF flows, industrial consumption and strategic outlook for 2026.",
+    image: "/content/post/D1.png",
+    date: "July 25, 2026",
+    readTime: "10 min read",
+    content: "",
+  },
 ];
