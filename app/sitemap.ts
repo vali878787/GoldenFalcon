@@ -1,102 +1,72 @@
 import { MetadataRoute } from "next";
+import { posts } from "@/content/posts";
+
+const BASE_URL = "https://www.goldenfalconenergy.com";
+
+// Add "ar" here once the Arabic routes/pages are fully wired and deployed.
+const locales = ["en", "zh"] as const;
+type Locale = (typeof locales)[number];
+
+// Builds { en: "...", zh: "..." } for a given path, used for hreflang alternates.
+function buildAlternates(path: string): Record<Locale, string> {
+  return locales.reduce((acc, locale) => {
+    acc[locale] = `${BASE_URL}/${locale}${path}`;
+    return acc;
+  }, {} as Record<Locale, string>);
+}
+
+type StaticPage = {
+  path: string;
+  changeFrequency: "daily" | "weekly" | "monthly";
+  priority: number;
+};
+
+const staticPages: StaticPage[] = [
+  { path: "", changeFrequency: "daily", priority: 1.0 },
+  { path: "/mining", changeFrequency: "weekly", priority: 0.8 },
+  { path: "/energy", changeFrequency: "weekly", priority: 0.8 },
+  { path: "/petrochemical", changeFrequency: "weekly", priority: 0.8 },
+  { path: "/market-prices", changeFrequency: "weekly", priority: 0.9 },
+  { path: "/market-prices/energy", changeFrequency: "weekly", priority: 0.8 },
+  { path: "/market-prices/petrochemical/urea", changeFrequency: "weekly", priority: 0.8 },
+  { path: "/market-prices/petrochemical/sulphur", changeFrequency: "weekly", priority: 0.8 },
+  { path: "/market-prices/petrochemical/other", changeFrequency: "weekly", priority: 0.8 },
+  { path: "/insights", changeFrequency: "daily", priority: 0.9 },
+];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date();
+  const now = new Date();
 
-  return [
-    // Home
-    {
-      url: "https://www.goldenfalconenergy.com",
-      lastModified,
-      changeFrequency: "daily",
-      priority: 1,
-    },
+  const staticEntries: MetadataRoute.Sitemap = locales.flatMap((locale) =>
+    staticPages.map(({ path, changeFrequency, priority }) => ({
+      url: `${BASE_URL}/${locale}${path}`,
+      lastModified: now,
+      changeFrequency,
+      priority,
+      alternates: {
+        languages: buildAlternates(path),
+      },
+    }))
+  );
 
-    // Main Pages
-    {
-      url: "https://www.goldenfalconenergy.com/mining",
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
+  const articleEntries: MetadataRoute.Sitemap = locales.flatMap((locale) =>
+    posts.map((post) => {
+      // Use the article's own publish date for lastModified instead of "now",
+      // falling back to today only if the date can't be parsed.
+      const parsedDate = new Date(post.date);
+      const lastModified = isNaN(parsedDate.getTime()) ? now : parsedDate;
 
-    {
-      url: "https://www.goldenfalconenergy.com/energy",
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
+      return {
+        url: `${BASE_URL}/${locale}/insights/${post.slug}`,
+        lastModified,
+        changeFrequency: "monthly" as const,
+        priority: 0.8,
+        alternates: {
+          languages: buildAlternates(`/insights/${post.slug}`),
+        },
+      };
+    })
+  );
 
-    {
-      url: "https://www.goldenfalconenergy.com/petrochemical",
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-
-    // Market Prices
-    {
-      url: "https://www.goldenfalconenergy.com/market-prices",
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-
-    {
-      url: "https://www.goldenfalconenergy.com/market-prices/energy",
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-
-    {
-      url: "https://www.goldenfalconenergy.com/market-prices/petrochemical/urea",
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-
-    {
-      url: "https://www.goldenfalconenergy.com/market-prices/petrochemical/sulphur",
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-
-    {
-      url: "https://www.goldenfalconenergy.com/market-prices/petrochemical/other",
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-
-    // Industry Insights
-    {
-      url: "https://www.goldenfalconenergy.com/insights",
-      lastModified,
-      changeFrequency: "daily",
-      priority: 0.9,
-    },
-
-    {
-      url: "https://www.goldenfalconenergy.com/insights/en590-10ppm-diesel",
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-
-    {
-      url: "https://www.goldenfalconenergy.com/insights/how-to-import-granular-sulphur",
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-
-    {
-      url: "https://www.goldenfalconenergy.com/insights/global-urea-market-guide",
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-  ];
+  return [...staticEntries, ...articleEntries];
 }
