@@ -57,5 +57,14 @@
     "status": "verified",
     "file": "/documents/GFE-SCO-2026-JUL-EN590-AslimarGlobal.Update.pdf"
   }
+  ,
+  {
+    "reference": "GFE-SCO-2026-JUL-EN590-J839-CFQ1290-H2",
+    "documentType": "SCO",
+    "title": "Soft Corporate Offer",
+    "issueDate": "2026-07-28",
+    "status": "verified",
+    "file": "/documents/GFE-SCO-2026-JUL-EN590-DODLEYCO.pdf"
+  }
   
 ]
