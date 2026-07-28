@@ -66,5 +66,14 @@
     "status": "verified",
     "file": "/documents/GFE-SCO-2026-JUL-EN590-DODLEYCO.pdf"
   }
+  ,
+  {
+    "reference": "GFE-SCO-2026-SUL-JUL-S67904-CF87-64",
+    "documentType": "SCO",
+    "title": "Soft Corporate Offer",
+    "issueDate": "2026-07-28",
+    "status": "verified",
+    "file": "/documents/GFE-SCO-2026-SUL-PT-RizmalaGloba.pdf"
+  }
   
 ]
