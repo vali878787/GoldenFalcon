@@ -48,5 +48,14 @@
     "status": "verified",
     "file": "/documents/GFE-SCO-2026-JUL-EN590-VITAL-CH.pdf"
   }
+  ,
+  {
+    "reference": "GFE-SCO-2026-JUL-EN590-G53FC24-54KZ190",
+    "documentType": "SCO",
+    "title": "Soft Corporate Offer",
+    "issueDate": "2026-07-28",
+    "status": "verified",
+    "file": "/documents/GFE-SCO-2026-JUL-EN590-AslimarGlobal.Update.pdf"
+  }
   
 ]
