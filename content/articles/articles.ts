@@ -62,4 +62,15 @@ Choosing the correct supplier can significantly reduce commercial risks and ensu
     readTime: "10 min read",
     content: "",
   },
+
+  {
+    slug: "crude-oil-market-trends-2026-gulf-trading",
+    title: "Crude Oil and Derivatives Markets in 2026: Rebuilding Confidence in Gulf Trading",
+    description:
+      "An industry analysis of the 2026 crude oil and derivatives markets, covering the Strait of Hormuz crisis, OPEC+ policy, the rise of Murban, regional risk management and the outlook for Gulf commodity trading.",
+    image: "/content/post/E1.png",
+    date: "August 03, 2026",
+    readTime: "13 min read",
+    content: "",
+  }
 ];
