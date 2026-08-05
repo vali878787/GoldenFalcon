@@ -68,7 +68,7 @@ export default function MarketPricesPage() {
               "
             >
               <Image
-                src="/logo.png"
+                src="/LOGO.png"
                 alt=""
                 width={220}
                 height={220}
