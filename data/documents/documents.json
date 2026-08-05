@@ -101,6 +101,23 @@
     "issueDate": "2026-07-28",
     "status": "verified",
     "file": "/documents/EN590-SCO-AUG-MARTINS.pdf"
+  },
+  {
+    "reference": "GFE-SCO-2026-AUG-EN590-C8IF8-90K78Y",
+    "documentType": "SCO",
+    "title": "Soft Corporate Offer",
+    "issueDate": "2026-07-28",
+    "status": "verified",
+    "file": "/documents/GFE-SCO-2026-AUG-EN590-C8IF8-Dr.Javanmard.pdf"
+  }
+  ,
+  {
+    "reference": "GFE-SCO-2026-AUG-EN590-C8IF8-90K78D",
+    "documentType": "SCO",
+    "title": "Soft Corporate Offer",
+    "issueDate": "2026-07-28",
+    "status": "verified",
+    "file": "/documents/GFE-SCO-2026-AUG-EN590-ARJ-Dr.IRFAN.pdf"
   }
   
 ]
