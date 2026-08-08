@@ -1,26 +1,26 @@
 {
   "category": "petrochemical",
   "product": "sulphur",
-  "date": "06 Aug 2026",
-  "previousDate": "30 Jul 2026",
-  "updatedAt": "2026-08-08T15:13:06.776Z",
+  "date": "30 Jul 2026",
+  "previousDate": "23 Jul 2026",
+  "updatedAt": "2026-08-01T08:11:39.876Z",
   "sections": [
     {
       "title": "Spot",
       "items": [
         {
           "market": "fob Vancouver",
-          "currentPrice": "1030-1100",
+          "currentPrice": "1030-1150",
           "previousPrice": "1030-1150"
         },
         {
           "market": "fob US West coast",
-          "currentPrice": "1030-1090",
+          "currentPrice": "1030-1145",
           "previousPrice": "1030-1145"
         },
         {
           "market": "fob Middle East (excluding Iran)",
-          "currentPrice": "865-890",
+          "currentPrice": "850-900",
           "previousPrice": "850-900"
         },
         {
@@ -30,7 +30,7 @@
         },
         {
           "market": "fob Middle East netback 50-55kt",
-          "currentPrice": "913-943",
+          "currentPrice": "913-963",
           "previousPrice": "913-963"
         },
         {
@@ -40,17 +40,17 @@
         },
         {
           "market": "fob Black Sea (lump-granular)",
-          "currentPrice": "800-950",
+          "currentPrice": "800-875",
           "previousPrice": "800-875"
         },
         {
           "market": "fob Baltic Sea",
-          "currentPrice": "850-950",
+          "currentPrice": "800-850",
           "previousPrice": "800-850"
         },
         {
           "market": "fob US Gulf",
-          "currentPrice": "1030-1100",
+          "currentPrice": "1030-1150",
           "previousPrice": "1030-1150"
         },
         {
@@ -60,22 +60,22 @@
         },
         {
           "market": "fob Med (under 10,000t)",
-          "currentPrice": "1100-1150",
+          "currentPrice": "1150-1180",
           "previousPrice": "1150-1180"
         },
         {
           "market": "cfr Med (under 10,000t)",
-          "currentPrice": "1160-1190",
+          "currentPrice": "1180-1200",
           "previousPrice": "1180-1200"
         },
         {
           "market": "cfr north Africa (lump-granular)",
-          "currentPrice": "980-1100",
+          "currentPrice": "1000-1200",
           "previousPrice": "1000-1200"
         },
         {
           "market": "cfr north Africa (granular)",
-          "currentPrice": "1000-1100",
+          "currentPrice": "1050-1200",
           "previousPrice": "1050-1200"
         },
         {
@@ -105,7 +105,7 @@
         },
         {
           "market": "ex-works China Yn/t",
-          "currentPrice": "9150-9180",
+          "currentPrice": "9170-9190",
           "previousPrice": "9170-9190"
         },
         {
@@ -115,7 +115,7 @@
         },
         {
           "market": "cfr Indonesia",
-          "currentPrice": "1070-1090",
+          "currentPrice": "1050-1150",
           "previousPrice": "1050-1150"
         }
       ]
@@ -136,17 +136,17 @@
         {
           "market": "fob Qatar QSP",
           "currentPrice": "890",
-          "previousPrice": "Aug 26"
+          "previousPrice": "Jul 26"
         },
         {
           "market": "fob UAE QSP",
           "currentPrice": "1000",
-          "previousPrice": "Aug 26"
+          "previousPrice": "Jul 26"
         },
         {
           "market": "fob Kuwait KSP",
-          "currentPrice": "865",
-          "previousPrice": "Aug 26"
+          "currentPrice": "950",
+          "previousPrice": "Jul 26"
         },
         {
           "market": "fob Black and Baltic Sea (lump-granular)",
@@ -155,8 +155,8 @@
         },
         {
           "market": "cfr north Africa (lump-granular)",
-          "currentPrice": "990-1010",
-          "previousPrice": "3Q26"
+          "currentPrice": "650-700",
+          "previousPrice": "2Q26"
         },
         {
           "market": "cfr Brazil",
@@ -177,11 +177,6 @@
           "market": "ex-works Benelux (loc refs) (molten)",
           "currentPrice": "840",
           "previousPrice": "Jul 26"
-        },
-        {
-          "market": "European Sourcing Average",
-          "currentPrice": "1003",
-          "previousPrice": "3Q26"
         },
         {
           "market": "cfr Benelux (loc refs) (molten)",
