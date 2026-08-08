@@ -10,15 +10,14 @@ export default function Watermark() {
         pointer-events-none
         select-none
         overflow-hidden
+        z-0
         flex
         flex-col
-        justify-center
-        gap-6
-        px-4
-        z-0
+        justify-around
+        py-6
       "
     >
-      {Array.from({ length: 8 }).map((_, row) => (
+      {Array.from({ length: 100 }).map((_, row) => (
         <p
           key={row}
           className="
@@ -30,7 +29,7 @@ export default function Watermark() {
             text-[#C8A24A]/8
           "
         >
-          {line.repeat(8)}
+          {line.repeat(20)}
         </p>
       ))}
     </div>
